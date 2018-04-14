@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta http-equiv="Content-Type" content="text/html;" charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+
+	<title></title>
+
+	<link rel="stylesheet" href="css/style.css" type="text/css"/>
+	<script type="text/javascript" src="lib/jquery.js"></script>
+</head>
+
+<body ontouchmove="event.preventDefault()">
+	
+	<!-- <div style="display: none;"><img src="../image/icon.png"/></div> -->
+
+	<div id="about_frame">
+		<div id="about_bk">
+
+			<div id="about_content">
+
+				<div id="about_title"></div>
+				<div id="about_tip"></div>
+				<div id="about_github"></div>
+
+				<div id="about_producer"></div>
+				<div id="about_developer"></div>
+				<div id="about_dev_helper"></div>
+				<div id="about_zh_cn"></div>
+				<div id="about_zh_tw"></div>
+				<div id="about_kr"></div>
+				<div id="about_en"></div>
+				<div id="about_jp"></div>
+
+				<div id="about_close" onclick="closeAbout()"></div>
+
+			</div>
+
+		</div>
+	</div>
+
+	<div id="enter_frame">
+		<div id="enter_bk">
+
+			<div id="enter_content">
+
+				<div id="enter_title"></div>
+				<div id="enter_caution"></div>
+				<div id="enter_info"></div>
+
+				<div id="lang">
+					<div id="lang_ZH_CN" onclick="switchLang('ZH_CN')">简体中文</div>
+					<div id="lang_ZH_TW" onclick="switchLang('ZH_TW')">繁體中文</div>
+					<div id="lang_KR" onclick="switchLang('KR')">한국어</div>
+					<div id="lang_EN" onclick="switchLang('EN')">English</div>
+					<div id="lang_JP" onclick="switchLang('JP')">日本語</div>
+				</div>
+
+				<div id="enter_about" onclick="clickAbout()"></div>
+
+				<div id="enter_enter" onclick="enterStory()"></div>
+
+			</div>
+
+		</div>
+	</div>
+
+	<div id="main_frame">
+
+		<div id="detail">
+			<div id="detail_btnleft" onclick="clickDetailBtn(-1)"> < </div>
+			<div id="detail_frame">
+				<img id="detail_frame_image">
+				<div id="detail_frame_text">
+					<div id="detail_frame_text_title"></div>
+					<div id="detail_frame_text_subtitle"></div>
+					<div id="detail_frame_text_content"></div>
+				</div>
+			</div>
+			<div id="detail_btnright" onclick="clickDetailBtn(1)"> > </div>
+		</div>
+
+		<div id="timeline">
+			<div id="timeline_header">
+				<div id="timeline_header_track"></div>
+			</div>
+			<div id="timeline_track"></div>
+			<!-- <div id="timeline_footer"></div> -->
+		</div>
+
+	</div>
+
+	<script type="text/javascript" src="script/script.js"></script>
+
+</body>
+
+</html>

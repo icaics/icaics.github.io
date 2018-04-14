@@ -1,0 +1,282 @@
+@charset "UTF-8";
+
+body {
+	font-family: Helvetica, Arial, 'Hiragino Sans GB', 'Microsoft YaHei', 'PingFang SC', simsun;
+	background-color: #000;
+	margin: 0px;
+	padding: 0px;
+
+	-webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+
+    cursor: default;
+}
+
+/* About */
+
+#about_frame {
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	position: absolute;
+	display: none;
+	align-items: center;
+	justify-content: center;
+	background-color: #262626;
+	z-index: 1;
+}
+
+#about_bk {
+	background-color: #3B3837;
+	color: #FFF;
+}
+
+#about_frame a {
+	color: #FBA400;
+	text-decoration: none;
+}
+
+#about_frame a:visited {
+	color: #FBA400;
+	text-decoration: none;
+}
+
+#about_content {
+	background-color: #3B3837;
+	color: #FFF;
+}
+
+#about_content div {
+	text-align: center;
+}
+
+#about_title {
+	font-size: 22px;
+	margin: 40px 40px 5px;
+}
+
+#about_tip {
+	font-size: 14px;
+	margin: 0px 40px;
+	color: #999;
+}
+
+#about_github {
+	font-size: 14px;
+	margin: 20px 40px;
+}
+
+#about_producer, #about_developer, #about_dev_helper {
+	font-size: 14px;
+	margin: 5px 40px 0px;
+}
+
+#about_zh_cn {
+	font-size: 14px;
+	margin: 20px 40px 0px;
+}
+
+#about_zh_tw, #about_kr, #about_en, #about_jp {
+	font-size: 14px;
+	margin: 5px 40px 0px;
+}
+
+#about_close {
+	font-size: 18px;
+	margin: 40px 40px;
+	color: #FBA400;
+}
+
+/* Enter */
+
+#enter_frame {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #262626;
+	z-index: 0;
+}
+
+#enter_bk {
+	background-color: #3B3837;
+	color: #FFF;
+}
+
+#enter_frame a {
+	color: #FBA400; 
+	text-decoration: none; 
+}
+
+#enter_frame a:visited {
+	color: #FBA400; 
+}
+
+#enter_content {
+	background-color: #3B3837;
+	color: #FFF;
+}
+
+#enter_content div {
+	text-align: center;
+}
+
+#enter_title {
+	font-size: 22px;
+	margin: 40px 40px 20px;
+}
+
+#enter_author {
+	font-size: 14px;
+	margin: 10px 40px;
+}
+
+#enter_caution {
+	color: #FBA400;
+	font-size: 16px;
+	margin: 30px 40px 0px;
+	font-weight: bold;
+}
+
+#enter_info {
+	color: #CCC;
+	font-size: 12px;
+	margin: 5px 40px;
+}
+
+#lang {
+	margin: 30px 0px;
+}
+
+#lang div {
+	margin: 10px 0px;
+	font-size: 14px;
+}
+
+#enter_about {
+	color: #FBA400;
+}
+
+#enter_enter {
+	font-size: 18px;
+	margin: 30px 40px;
+	color: #FBA400;
+}
+
+/* MainFrame */
+
+#main_frame {
+	position: absolute;
+	opacity: 0;
+	z-index: -1;
+}
+
+#detail {
+	background-color: #3B3837;
+	display: flex;
+	justify-content: space-between;
+	overflow: hidden;
+}
+
+#detail_btnleft, #detail_btnright {
+	background-color: #262626;
+	color: #FFF;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#detail_frame {
+	color: #FFF;
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+
+#detail_frame_text_title {
+	color: #FFF;
+}
+
+#detail_frame_text_subtitle {
+	color: #CCC;
+	font-size: 15px;
+	padding-top: 5px;
+}
+
+#detail_frame_text_content {
+	color: #999;
+	font-size: 12px;
+	padding-top: 20px;
+}
+
+#detail_frame_text_content a {
+	color: #FBA400;
+	text-decoration: none;
+}
+
+#detail_frame_text_content a:visited {
+	color: #FBA400;
+	text-decoration: none;
+}
+
+#timeline {
+	background-color: #262626;
+	overflow: hidden;
+}
+
+#timeline_header {
+	background-color: #3B3837;
+	position: absolute;
+	overflow: hidden;
+}
+
+#timeline_header_track {
+	position: absolute;
+}
+
+.timeline_header_item_span_odd {
+	color: #FFF;
+	background-color: #3B3837;
+	text-align: left;
+	padding-left: 15px;
+	font-size: 14px;
+}
+
+.timeline_header_item_span_even {
+	color: #FFF;
+	background-color: #262626;
+	text-align: left;
+	padding-left: 15px;
+	font-size: 14px;
+}
+
+#timeline_track {
+	display: flex;
+	position: absolute;
+}
+
+.timeline_track_item_div {
+	background-color: #3B3837;
+	display: flex;
+	position: absolute;
+	cursor: default;
+}
+
+.timeline_track_item_img {
+	overflow: hidden;
+}
+
+.timeline_track_item_span {
+	font-size: 12px;
+	color: #FFF;
+}
+
+#timeline_footer {
+	background-color: #111;
+	position: absolute;
+}
