@@ -79,6 +79,8 @@ function enterStory() {
 	});
     $('#main_frame').animate({opacity: '1'}, 1500);
 
+    setKeyboard();
+
 }
 
 function bindEnterAboutData(jsonData) {
@@ -435,12 +437,13 @@ function clickTimelineItem(e) {
 
 function moveTimelineToIndexWithDuration(duration) {
     
+    var timeline = $('#timeline');
     var timeline_track = $('#timeline_track');
     var timeline_header_track = $('#timeline_header_track');
 
-    var _x = - data[index].position_x + 5;
+    var _x = - data[index].position_x + timeline.width() / 2;
 
-    var limit = - Math.abs($('#timeline').width() - timeline_track.width()) + 5;
+    var limit = - Math.abs(timeline.width() - timeline_track.width()) + 5;
     if (_x < limit) _x = limit;
 
     timeline_track.animate({left: _x + 'px'}, duration);
@@ -481,7 +484,7 @@ function setTimelineDrag() {
 
             var _x = isTouch ? (ev.touches[0].pageX - x) : (ev.pageX - x);
 
-            if (_x > 5) _x = 5;
+            if (_x > $('#timeline').width() / 2) _x = $('#timeline').width() / 2;
             var limit = - Math.abs($('#timeline').width() - timeline_track.width()) + 5;
             if (_x < limit) _x = limit;
 
@@ -496,6 +499,22 @@ function setTimelineDrag() {
         timeline_track.css('cursor', 'default');
         $(this).off(dragEvent.move);
 
+    });
+
+}
+
+function setKeyboard() {
+
+    $(document).keydown(function (event) {
+        switch (event.keyCode) {
+            case 37:
+                clickDetailBtn(-1);
+                break;
+            case 39:
+                clickDetailBtn(1);
+                break;
+        };
+        return false;
     });
 
 }
