@@ -229,6 +229,13 @@ body {
 	overflow: hidden;
 }
 
+#timeline_divider {
+	height: 1px;
+	background-color: #A47400;
+	position: absolute;
+	/*display: none;*/
+}
+
 #timeline_header {
 	background-color: #3B3837;
 	position: absolute;
@@ -253,6 +260,12 @@ body {
 	text-align: left;
 	padding-left: 15px;
 	font-size: 14px;
+}
+
+#timeline_pointer {
+	width: 1px;
+	background-color: #A47400;
+	position: absolute;
 }
 
 #timeline_track {

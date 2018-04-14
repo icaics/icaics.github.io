@@ -233,7 +233,7 @@ function setupViews() {
     // var timeline_footer = $('#timeline_footer');
     // timeline_footer.width(timeline.width());
     // timeline_footer.height(timeline.height() * 0);
-    // timeline_footer.css('top', timeline.height());
+    // timeline_footer.css('top', timeline.height() + 'px');
 
 }
 
@@ -320,21 +320,31 @@ function updateTimelineViews() {
     var timeline_track_height = timeline_track.height();
     var timeline_track_div_height = (timeline_track_height - 20) / 3;
 
-    timeline_track.css('top', $('#timeline_header').position().top + $('#timeline_header').height());
-    timeline_track.css('left', 5);
+    timeline_track.css('top', $('#timeline_header').position().top + $('#timeline_header').height() + 'px');
+    timeline_track.css('left', $('#timeline').width() / 2 + 'px');
 
     for (item in header) {
 
         var timeline_header = $('#timeline_header');
         var timeline_header_item_span = $('#timeline_header_item_span_' + item);
         timeline_header_item_span.css('position', 'absolute');
-        if (item % 2 == 0) timeline_header_item_span.css('left', header[item].position_x - 5);
-        else timeline_header_item_span.css('left', header[item].position_x);
+        if (item % 2 == 0) timeline_header_item_span.css('left', header[item].position_x - 5 + 'px');
+        else timeline_header_item_span.css('left', header[item].position_x + 'px');
         timeline_header_item_span.css('line-height', timeline_header.height() + 'px');
         timeline_header_item_span.height(timeline_header.height());
         timeline_header_item_span.width(65535);
 
     }
+
+    var timeline_divider = $('#timeline_divider');
+    timeline_divider.css('left', '0px');
+    timeline_divider.css('top', timeline_header.position().top - 3.5 + 'px');
+    timeline_divider.css('width', $('#timeline').width() + 'px');
+
+    var timeline_pointer = $('#timeline_pointer');
+    timeline_pointer.css('left', $('#timeline').width() / 3 - 2.5 + 'px');
+    timeline_pointer.css('top', timeline_header.position().top - 2.5 + 'px');
+    timeline_pointer.css('height', $('#timeline').height() + 'px');
 
     for (item in data) {
 
@@ -352,8 +362,8 @@ function updateTimelineViews() {
         var item_top_zero = 0;
 
         var timeline_track_item_div = $('#timeline_track_item_div_' + item);
-        timeline_track_item_div.css('left', position_x);
-        timeline_track_item_div.css('top', item_top_zero + 5 + position_y * (timeline_track_div_height + 5));
+        timeline_track_item_div.css('left', position_x + 'px');
+        timeline_track_item_div.css('top', item_top_zero + 5 + position_y * (timeline_track_div_height + 5) + 'px');
         timeline_track_item_div.width(position_width - 5);
         timeline_track_item_div.height(timeline_track_div_height);
 
@@ -369,7 +379,7 @@ function updateTimelineViews() {
 
     }
 
-    $('#timeline_footer').css('top', timeline_track.position().top + timeline_track.height());
+    // $('#timeline_footer').css('top', timeline_track.position().top + timeline_track.height() + 'px');
 
     if (data) moveTimelineToIndexWithDuration(0);
 
@@ -441,7 +451,7 @@ function moveTimelineToIndexWithDuration(duration) {
     var timeline_track = $('#timeline_track');
     var timeline_header_track = $('#timeline_header_track');
 
-    var _x = - data[index].position_x + timeline.width() / 2;
+    var _x = - data[index].position_x + timeline.width() / 3;
 
     var limit = - Math.abs(timeline.width() - timeline_track.width()) + 5;
     if (_x < limit) _x = limit;
@@ -484,7 +494,7 @@ function setTimelineDrag() {
 
             var _x = isTouch ? (ev.touches[0].pageX - x) : (ev.pageX - x);
 
-            if (_x > $('#timeline').width() / 2) _x = $('#timeline').width() / 2;
+            if (_x > $('#timeline').width() / 3) _x = $('#timeline').width() / 3;
             var limit = - Math.abs($('#timeline').width() - timeline_track.width()) + 5;
             if (_x < limit) _x = limit;
 
