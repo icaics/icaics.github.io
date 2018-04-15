@@ -453,7 +453,7 @@ function moveTimelineToIndexWithDuration(duration) {
 
     var _x = - data[index].position_x + timeline.width() / 3;
 
-    var limit = - Math.abs(timeline.width() - timeline_track.width()) + 5;
+    var limit = - Math.abs(timeline.width() / 3 - timeline_track.width()) + 5;
     if (_x < limit) _x = limit;
 
     timeline_track.animate({left: _x + 'px'}, duration);
@@ -495,7 +495,7 @@ function setTimelineDrag() {
             var _x = isTouch ? (ev.touches[0].pageX - x) : (ev.pageX - x);
 
             if (_x > $('#timeline').width() / 3) _x = $('#timeline').width() / 3;
-            var limit = - Math.abs($('#timeline').width() - timeline_track.width()) + 5;
+            var limit = - Math.abs($('#timeline').width() / 3 - timeline_track.width()) + 5;
             if (_x < limit) _x = limit;
 
             timeline_track.animate({left: _x + 'px'}, 10);

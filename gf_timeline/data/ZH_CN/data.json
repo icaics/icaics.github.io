@@ -2,7 +2,7 @@
 	"about": {
 		"title": "关于",
 		"tip": "个人总结制作，多有疏漏还请指正",
-		"github": "<a href='https://www.github.com/icaics/'>Github</a>",
+		"github": "<a href='https://github.com/icaics/icaics.github.io/'>Github</a>",
 		"producer": "企划：<a href='https://weibo.com/icaics/'>@菜酱</a>",
 		"developer": "开发：<a href='https://weibo.com/icaics/'>@菜酱</a>",
 		"dev_helper": "开发协力：N/A",
@@ -49,7 +49,7 @@
 			"position_x": 1700
 		},
 		{
-			"title": "2045 年 8 月 13 日 -2051 年 6 月 29 日",
+			"title": "2045 年 8 月 13 日 - 2051 年 6 月 29 日",
 			"position_x": 2000
 		},
 		{
@@ -87,6 +87,10 @@
 		{
 			"title": "2062 年 5 月 20 日",
 			"position_x": 7700
+		},
+		{
+			"title": "EP.01 苏醒（Wake Up）",
+			"position_x": 8000
 		}
 	],
 	"data": [
@@ -102,7 +106,7 @@
 		{
 			"title": "更新记录",
 			"subtitle": "最新更新时间：2018-04-14",
-			"content": "2018-04-14 第一版测试",
+			"content": "2018-04-14 第一版测试<br><br><a href='https://github.com/icaics/icaics.github.io/commits/master'>查看详细更新内容</a>",
 			"image": "title.png",
 			"position_y": 1,
 			"position_x": 0,
@@ -284,7 +288,7 @@
 			"subtitle": "SP.04 深层映射 - 双曲函数 相对行为",
 			"content": "铁血工造生产线丢失两具人形素体：<br>01491  SF/DSB1-0671  双轨DSI-8型 SY通过 缺省 缺少记录<br>04673  SF/DSB1-3873  双轨DSI-8型 SY通过 缺省 缺少记录<br><br>两具素体被秘密改造，安装大量电子战模块，抹除数据，伪装为格里芬 SSD-D 型号运送到格里芬。<br><br>因存储空间不够安装更强枪械的烙印软件，因此只匹配了 UMP40 和 UMP45，物理作战能力低下，但作为电子战人形，可以同时兼容铁血的「欧伽斯网络」协议和格里芬的「齐纳网络」协议。",
 			"image": "kart.png",
-			"position_y": 1,
+			"position_y": 2,
 			"position_x": 5000,
 			"position_width": 300
 		},
@@ -352,7 +356,7 @@
 			"position_width": 300
 		},
 		{
-			"title": "AR 小队受帕斯卡委托潜入 S09 区回收「莱柯」留下的资料",
+			"title": "AR 小队潜入 S09 区回收「莱柯」留下的资料",
 			"subtitle": "EP.00 种子（The Seed）",
 			"content": "帕斯卡向克鲁格征用了 AR 小队，由安洁莉娅指挥，潜入铁血的领地，去寻找莱柯生前使用过的资料库，不仅是为了找回缺失的代码，她也想知道，莱柯的死是不是真的只是因为一场意外。<br><br>M4A1 报告：S09 区，时间 0559，坐标 V6J69-HJYRV，行动开始。<br><br>伊莱莎发现了 AR 小队的行踪，AR 小队通过帕斯卡的口令，潜入 3 号安全屋成功拿到了伊莱莎想要的资料，伊莱莎立刻派遣铁血头目袭击 AR 小队。",
 			"image": "sf_bosses.png",
@@ -374,8 +378,63 @@
 			"subtitle": "游戏开始，指挥官就任",
 			"content": "「蝴蝶行动」半年后，格里芬决定再次招收一批人类指挥官，他们不需要过于专业的训练和经验，最重要的标准就是某项特殊的心理测试，来测量与格里芬人形的行动相适性，还有足够的耐心、勇气与忠诚。<br><br>各位玩家的游戏，从此处开始 …",
 			"image": "login.png",
-			"position_y": 1,
+			"position_y": 0,
 			"position_x": 7700,
+			"position_width": 300
+		},
+		{
+			"title": "格里芬私人军事承包商，更新世界的锋芒！",
+			"subtitle": "EP.01 苏醒（Wake Up）1-1 演习训练",
+			"content": "指挥官再入职后完成了日常训练，认识了后勤官格琳娜（Kalina），并在训练作战后遇到了走失的人形「司登 MK-2」。<br><br>格林娜介绍了格里芬的责任：格里芬安全承包商，是主要由战术人形组成的私人武装组织。而格里芬的职责，就是接受财团和组织的雇佣，去防卫人类的居住地。目前格里芬承包地带面对的最大威胁，就是来自铁血工造的失控人形。",
+			"image": "1-1_what_is_gk.png",
+			"position_y": 0,
+			"position_x": 8000,
+			"position_width": 300
+		},
+		{
+			"title": "第一个任务",
+			"subtitle": "EP.01 苏醒（Wake Up）1-2 转移伤患",
+			"content": "原本将要进行的作战训练突然被打断，赫丽安图丝（Helianthus），格里芬高级代行官，发来了视频通讯。<br><br>赫丽安表示，刚才有报告称，在战场后方发现了地方的行踪，怀疑是铁血的侦查部队，要求指挥官协助歼灭并摧毁通讯设施避免我方情报泄露。<br><br>战斗结束后，赫丽安简单介绍了「铁血工造」人形失控的情况，并再次对指挥官的入职表示欢迎。",
+			"image": "1-2_welcome.png",
+			"position_y": 0,
+			"position_x": 8300,
+			"position_width": 300
+		},
+		{
+			"title": "MAC-10（英格拉姆）",
+			"subtitle": "EP.01 苏醒（Wake Up）1-3 调查异常",
+			"content": "赫丽安接着发布了新的任务，要求护送受伤人形 MAC-10（英格拉姆） 回后方基地，她是难得的能说出话的幸存者了。但线路上有一座低限度自助运行的铁血哨站，需要清理威胁保护人形。<br><br>MAC-10 与 STG-44 和 PPsh-43 遇到了代理人，而代理人当时在追 AR 小队，目前失踪的人形只剩下 VZ61（蝎式）了，她可能掌握着重要的情报。",
+			"image": "1-3_mac10.png",
+			"position_y": 0,
+			"position_x": 8600,
+			"position_width": 300
+		}
+		,
+		{
+			"title": "审问",
+			"subtitle": "EP.01 苏醒（Wake Up）1-4 失踪人口",
+			"content": "为了营救蝎式，需要指挥官搜索该地区的铁血指挥部，找到有价值的行动记录，从此开始铁血会主动搜索并攻击我方梯队。<br><br>从搜索到的记录得知，稻草人曾审问蝎式，要求供出 AR 小队的下落，而蝎式为了拖延时间，给出了多个位置，她相信 M4A1 是她的同伴，而不是冷酷高效的人形精英。",
+			"image": "1-4_question.png",
+			"position_y": 0,
+			"position_x": 8900,
+			"position_width": 300
+		},
+		{
+			"title": "VZ61（蝎式）",
+			"subtitle": "EP.01 苏醒（Wake Up）1-5 救援信号",
+			"content": "蝎式处境非常危险，指挥官被赫丽安要求马上将目标区域的铁血侦查据点破坏，确保救援行动部队不被发现。<br><br>PPsh-41 波波沙成功救出蝎式，后者表示自己提供的是假情报，并没有泄露 AR 小队的下落。<br><br>为了报仇，蝎式被重新安排在了指挥官的梯队中。",
+			"image": "1-5_vz61.png",
+			"position_y": 0,
+			"position_x": 9200,
+			"position_width": 300
+		},
+		{
+			"title": "型号 SP65「Scarecrow」— 稻草人",
+			"subtitle": "EP.01 苏醒（Wake Up）1-6 除草行动",
+			"content": "歼灭稻草人的行动开始了，但稻草人却了解格里芬人形 AI 编写的机密：即使「说谎」，也只是将真答案加上随机信息加以打乱，只要凑够三份情报加以分析，就能得到真正的信息。<br><br>在与稻草人的谈话过程中，信息已经发出「流程编号 ... 8354 ... 9266 ... 0223」被刽子手接受，而稻草人拒绝了格里芬的完整回收，自爆损毁 …",
+			"image": "1-6_scarecrow.png",
+			"position_y": 0,
+			"position_x": 9500,
 			"position_width": 300
 		}
 	]
