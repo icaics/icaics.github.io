@@ -1,7 +1,7 @@
 //
 
 var image_scale = .56;
-var index = (sessionStorage.getItem('index')) ? parseInt(sessionStorage.getItem('index')) : 0;
+var index = (localStorage.getItem('index')) ? parseInt(localStorage.getItem('index')) : 0;
 var lang, header, data;
 
 //
@@ -130,7 +130,7 @@ function closeAbout() {
 
 function initData() {
 
-    var storageIndex = parseInt(sessionStorage.getItem('index'));
+    var storageIndex = parseInt(localStorage.getItem('index'));
     if (storageIndex && storageIndex < data.length) index = storageIndex;
 
     bindDetailData();
@@ -425,7 +425,7 @@ function clickDetailBtn(operation) {
         index = data.length - 1;
     }
     
-    sessionStorage.setItem('index', index);
+    localStorage.setItem('index', index);
 
     // console.log('index = ' + index);
 
@@ -438,7 +438,7 @@ function clickTimelineItem(e) {
 
     index = e.data;
     // console.log('index = ' + index);
-    sessionStorage.setItem('index', index);
+    localStorage.setItem('index', index);
 
     bindDetailData();
     moveTimelineToIndexWithDuration(500);
@@ -520,8 +520,14 @@ function setKeyboard() {
             case 37:
                 clickDetailBtn(-1);
                 break;
+            case 38:
+                clickDetailBtn(-index);
+                break;
             case 39:
                 clickDetailBtn(1);
+                break;
+            case 40:
+                clickDetailBtn(data.length - 1);
                 break;
         };
         return false;
