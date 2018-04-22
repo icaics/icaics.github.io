@@ -2,11 +2,11 @@
 	"about": {
 		"title": "关于",
 		"tip": "个人总结制作，多有疏漏还请指正",
-		"github": "<a href='https://github.com/icaics/icaics.github.io/'>Github</a>",
-		"producer": "企划：<a href='https://weibo.com/icaics/'>@菜酱</a>",
-		"developer": "开发：<a href='https://weibo.com/icaics/'>@菜酱</a>",
+		"github": "<a href='https://github.com/icaics/icaics.github.io/' target='_blank'>Github</a>",
+		"producer": "企划：<a href='https://weibo.com/icaics/' target='_blank'>@菜酱</a>",
+		"developer": "开发：<a href='https://weibo.com/icaics/' target='_blank'>@菜酱</a>",
 		"dev_helper": "开发协力：N/A",
-		"zh_cn": "简中版本：<a href='https://weibo.com/icaics/'>@菜酱</a>",
+		"zh_cn": "简中版本：<a href='https://weibo.com/icaics/' target='_blank'>@菜酱</a>",
 		"zh_tw": "繁中版本：N/A",
 		"en": "英语版本：N/A",
 		"jp": "日语版本：N/A",
@@ -110,7 +110,7 @@
 		{
 			"title": "更新记录",
 			"subtitle": "最新更新时间：2018-04-14",
-			"content": "2018-04-14 第一版测试<br><br><a href='https://github.com/icaics/icaics.github.io/commits/master'>查看详细更新内容</a>",
+			"content": "2018-04-14 第一版测试<br><br><a href='https://github.com/icaics/icaics.github.io/commits/master' target='_blank'>查看详细更新内容</a>",
 			"image": "title.png",
 			"position_y": 1,
 			"position_x": 0,
@@ -119,7 +119,7 @@
 		{
 			"title": "参考资料",
 			"subtitle": "感谢指挥官们的无私奉献，如有冒犯请联系我",
-			"content": "<a href='https://zh.moegirl.org/少女前线:世界观'>萌娘百科 - 少女前线:世界观</a><br><a href='https://bbs.ngacn.cc/read.php?tid=12213204'>少女前线主线剧情文本阅读</a><br><a href='https://tieba.baidu.com/p/4685237079'>少女前线背景设定时间线总结整理【更新改进版】</a><br><a href='https://space.bilibili.com/218683#/article'>德拉贡诺夫废人养成 bilibili 专栏</a><br><a href='https://weibo.com/ttarticle/p/show?id=2309404205309404030707'>【剧透注意】少女前线2018冬活“塌缩点”全剧情对话整理</a><br><a href='https://weibo.com/ttarticle/p/show?id=2309404213543208629472'>2018年冬日活动“坍缩点”</a><br>",
+			"content": "<a href='https://zh.moegirl.org/少女前线:世界观' target='_blank'>萌娘百科 - 少女前线:世界观</a><br><a href='https://bbs.ngacn.cc/read.php?tid=12213204' target='_blank'>少女前线主线剧情文本阅读</a><br><a href='https://tieba.baidu.com/p/4685237079' target='_blank'>少女前线背景设定时间线总结整理【更新改进版】</a><br><a href='https://space.bilibili.com/218683#/article' target='_blank'>德拉贡诺夫废人养成 bilibili 专栏</a><br><a href='https://weibo.com/ttarticle/p/show?id=2309404205309404030707' target='_blank'>【剧透注意】少女前线2018冬活“塌缩点”全剧情对话整理</a><br><a href='https://weibo.com/ttarticle/p/show?id=2309404213543208629472' target='_blank'>2018年冬日活动“坍缩点”</a><br>",
 			"image": "title.png",
 			"position_y": 2,
 			"position_x": 0,
