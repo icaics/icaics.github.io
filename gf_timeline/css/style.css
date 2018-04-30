@@ -231,7 +231,7 @@ body {
 }
 
 #timeline_divider {
-	height: 1px;
+	height: 10px;
 	background-color: #A47400;
 	position: absolute;
 	/*display: none;*/
@@ -264,7 +264,7 @@ body {
 }
 
 #timeline_pointer {
-	width: 1px;
+	width: 2px;
 	background-color: #A47400;
 	position: absolute;
 }

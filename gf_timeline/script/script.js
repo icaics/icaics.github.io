@@ -10,9 +10,8 @@ initLang();
 setupViews();
 setTimelineDrag();
 
-//
-
-//enterStory();
+// DEBUG
+// enterStory();
 
 //
 
@@ -79,7 +78,7 @@ function enterStory() {
 	});
     $('#main_frame').animate({opacity: '1'}, 1500);
 
-    setKeyboard();
+    setHotkey();
 
 }
 
@@ -107,7 +106,7 @@ function bindEnterAboutData(jsonData) {
     $('#enter_enter').html(jsonData.enter.enter);
 
     $('#lang').children().css('color', '#FFF');
-    $('#lang_' + lang).css('color', '#FBA400');
+    $('#lang_' + lang).css('color', '#E78524');
 
 }
 
@@ -338,12 +337,12 @@ function updateTimelineViews() {
 
     var timeline_divider = $('#timeline_divider');
     timeline_divider.css('left', '0px');
-    timeline_divider.css('top', timeline_header.position().top - 3.5 + 'px');
+    timeline_divider.css('top', timeline_header.position().top - 10 + 'px');
     timeline_divider.css('width', $('#timeline').width() + 'px');
 
     var timeline_pointer = $('#timeline_pointer');
-    timeline_pointer.css('left', $('#timeline').width() / 3 - 2.5 + 'px');
-    timeline_pointer.css('top', timeline_header.position().top - 2.5 + 'px');
+    timeline_pointer.css('left', $('#timeline').width() / 3 - 3.5 + 'px');
+    timeline_pointer.css('top', timeline_header.position().top);
     timeline_pointer.css('height', $('#timeline').height() + 'px');
 
     for (item in data) {
@@ -467,7 +466,7 @@ function setTimelineDrag() {
     var timeline_header_track = $('#timeline_header_track');
 
     var isTouch = window.hasOwnProperty('ontouchstart');
-    var dragEvent = (window.hasOwnProperty('ontouchstart')) ? {
+    var dragEvent = isTouch ? {
         down: 'touchstart',
         move: 'touchmove',
         up: 'touchend',
@@ -513,7 +512,7 @@ function setTimelineDrag() {
 
 }
 
-function setKeyboard() {
+function setHotkey() {
 
     $(document).keydown(function (event) {
         switch (event.keyCode) {
