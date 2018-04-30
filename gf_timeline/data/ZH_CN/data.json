@@ -99,6 +99,10 @@
 		{
 			"title": "EP.03 沉默（Silence）",
 			"position_x": 9500
+		},
+		{
+			"title": "EP.04 风声（The Message）",
+			"position_x": 11000
 		}
 	],
 	"data": [
@@ -533,6 +537,78 @@
 			"image": "2-e-4_result.png",
 			"position_y": 1,
 			"position_x": 9200,
+			"position_width": 300
+		},
+		{
+			"title": "M16A1「放心吧，我们会见面的」",
+			"subtitle": "EP.03 沉默（Silence）3-1 打通入口",
+			"content": "指挥官的成绩获得了总部的认可，M4A1 的记忆副本也在等待总部解析。因为协议限制，格里芬依然不能投入主力，因此赫丽安命令指挥官大幅推进战线，彻底驱逐当地铁血势力。<br><br>作战结束后，M4A1 在指挥部秘密与 M16A1 通讯，M16A1 表示她在殿后时与大家走散，上次联络时 AR-15 和 SOP-II 还很安全。<br><br>随着铁血追兵的到来，M16A1 结束了通讯，「放心吧，我们会见面的。」",
+			"image": "3-1_m16a1.png",
+			"position_y": 0,
+			"position_x": 9500,
+			"position_width": 300
+		},
+		{
+			"title": "AR-15「我还有笔账要算」",
+			"subtitle": "EP.03 沉默（Silence）3-2 截获情报",
+			"content": "M4A1 向赫丽安提交了 AR 小组其他成员的情况，作为支援，指挥官被命令关闭当地铁血通信站，同时上传其中的数据帮助分析当地头目情报。<br><br>M4A1 接收到了 AR-15 和 SOP-II 的通讯，M4A1 刚刚指定会和地点，AR-15 就切断了通讯，原因是 AR-15 发现通讯已经被监听。<br><br>AR-15 离开前让 SOP-II 与 M4A1 会合，而自己「还有一笔账要算」。",
+			"image": "3-2_sop_ii_mission.png",
+			"position_y": 1,
+			"position_x": 9600,
+			"position_width": 300
+		},
+		{
+			"title": "M4 SOPMOD II",
+			"subtitle": "EP.03 沉默（Silence）3-3 秘密支援",
+			"content": "指挥官受 M4A1 委托，接应 AR 小组另外两位人形，需要击退当地铁血部队帮助她们到达集合地点。<br><br>战斗结束后 M4A1 与 M4 SOPMOD II 会合，而 SOP-II 告诉 M4A1，她们的通讯被铁血头目窃听，AR-15 为了干扰对方的追捕正在争取时间。<br><br>同时，铁血的头目和部队，已经开始向指挥官的指挥部移动了。",
+			"image": "3-3_sf_attack.png",
+			"position_y": 2,
+			"position_x": 9700,
+			"position_width": 300
+		},
+		{
+			"title": "「指挥官，没时间解释了，快上车！」",
+			"subtitle": "EP.03 沉默（Silence）3-4 防御作战",
+			"content": "在向指挥官介绍 SOP-II 之后，SOP-II 赶快让指挥官撤退「指挥官，没时间解释了，快上车！」，而 M4A1 告诉她这次大家会一起并肩作战。随后指挥官和她们一起击退了铁血对格里芬指挥部的进攻。<br><br>战斗结束后，SOP-II 说明了 AR-15 调查到的情报，这片区域铁血头目被称为「猎手」，是个狡猾的家伙，而 AR-15 可能坚持不了多久了。",
+			"image": "3-4_skilled_driver.png",
+			"position_y": 0,
+			"position_x": 10000,
+			"position_width": 300
+		},
+		{
+			"title": "「真正的猎手，会选择沉默」",
+			"subtitle": "EP.03 沉默（Silence）3-4 防御作战",
+			"content": "在铁血指挥部，AR-15 与「猎手」对峙，猎手对 AR-15 自己过来送死的冲动行为感到失望。<br><br>「资料显示你明明是个理智到无情的家伙，结果居然这么冲动吗？我还以为我们会有点共同语言，真是失望 ...」<br><br>而 AR-15 只是质问铁血为什么这么想要 M4A1，猎手却只在乎 AR-15 这只诱饵，能让 M4A1 乖乖现身。",
+			"image": "3-4_ar15_question.png",
+			"position_y": 2,
+			"position_x": 10100,
+			"position_width": 300
+		},
+		{
+			"title": "型号 SP721「Hunter」— 猎手",
+			"subtitle": "EP.03 沉默（Silence）3-5 快速反击",
+			"content": "为了对抗猎手，指挥官被要求侦查猎手的基地外围，为后续行动做好准备。<br><br>搜索正在进行中时，猎手突然进入 M4A1 的通讯频道，向 M4A1 证明 AR-15 已经在她的手上了「别听它的，M4！都是我自己——」<br><br>而猎手则断言格里芬攻不进她的指挥室，M4A1 必须做出选择。",
+			"image": "3-5_threat_m4a1.png",
+			"position_y": 0,
+			"position_x": 10400,
+			"position_width": 300
+		},
+		{
+			"title": "AR-15 的特殊能力",
+			"subtitle": "EP.03 沉默（Silence）3-6 禁止狩猎",
+			"content": "M4A1 刚刚下定决心救援 AR-15，格里芬突然发现铁血大量作战单位失去行动能力，指挥官被要求马上出发解决「猎手」。<br><br>铁血指挥部，原来是 AR-15 从铁血内部修改了猎手的命令，制造了混乱，而猎手惊讶为什么 AR-15 会有铁血的权限，AR-15 表示仅仅是不知不觉获得的能力。<br><br>「难道……你是故意被捕的」「是你说的，真正的猎手，会选择沉默。当然现在，你可以彻底“沉默”了，铁血。」<br><br>注：这里可以看出 AR-15 已经感染了主脑「伊莱莎」为她设置的「伞」病毒。",
+			"image": "3-6_ar15_virus.png",
+			"position_y": 1,
+			"position_x": 10700,
+			"position_width": 300
+		},
+		{
+			"title": "「M16，现在就差你了 ...」",
+			"subtitle": "EP.03 沉默（Silence）3-6 禁止狩猎",
+			"content": "AR-15 与 M4A1、SOP-II 会合，AR-15 训斥了 M4A1。<br><br>「M4，如果没有这场混乱，你真打算拿自己来交换吗？」<br>「不管你怎么想，M4A1。你是领袖，下次别做傻事。」<br>「我们都有各自的责任，M4A1，这决定了我们有时没有选择。而且M16，她还在等着援救。」<br><br>顾不上顺便「教训」SOP-II 的 AR-15，M4A1 叹气道「M16，现在就差你了 ...」",
+			"image": "3-6_ar15_teach.png",
+			"position_y": 2,
+			"position_x": 10700,
 			"position_width": 300
 		}
 	]
