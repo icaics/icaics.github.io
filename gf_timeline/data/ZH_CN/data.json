@@ -93,16 +93,28 @@
 			"position_x": 6700
 		},
 		{
+			"title": "EP.01 苏醒（Wake Up）EMERGENCY",
+			"position_x": 7700
+		},
+		{
 			"title": "EP.02 回声（The Echo）",
 			"position_x": 8000
+		},
+		{
+			"title": "EP.02 回声（The Echo）EMERGENCY",
+			"position_x": 9200
 		},
 		{
 			"title": "EP.03 沉默（Silence）",
 			"position_x": 9500
 		},
 		{
-			"title": "EP.04 风声（The Message）",
+			"title": "EP.03 沉默（Silence）EMERGENCY",
 			"position_x": 11000
+		},
+		{
+			"title": "EP.04 风声（The Message）",
+			"position_x": 11300
 		}
 	],
 	"data": [
@@ -610,6 +622,124 @@
 			"position_y": 2,
 			"position_x": 10700,
 			"position_width": 300
+		},
+		{
+			"title": "调查 S09 区，收集铁血遗留下的情报",
+			"subtitle": "EP.03 沉默（Silence）3-3E 回收数据",
+			"content": "格林娜帮指挥官接下了新的任务「调查 S09 区，收集铁血遗留下的情报」<br><br>几次战斗下来，收获了几个大型军用数据储存器，但是因为没有技术人员，所以并不清楚里面的数据。而在后面的战斗中，运送最新获得的数据存储器的人形小队遇袭，战利品被铁血的运输队转移走了。<br><br>「铁血的部队派了重兵想看守的 ... 究竟是什么呢 ...」",
+			"image": "3-e-3_kalina_ask.png",
+			"position_y": 0,
+			"position_x": 11000,
+			"position_width": 300
+		},
+		{
+			"title": "三号安全屋的「资料」与「伞」计划",
+			"subtitle": "EP.03 沉默（Silence）3-4E 回收数据",
+			"content": "之前获得的数据经过技术人员的解析，结果是段录音。<br><br>在录音中，是猎手和她的上级「干扰者」的对话：干扰者了解到三号安全屋的「资料」还在 M4A1 身上，「格里芬看来都不知道这些资料的价值。无论是 [伞] 计划，还是 [遗迹] 相关的情报 ...」<br><br>干扰者还提到，稻草人、刽子手和猎手的记忆数据，都在她这里存着呢，她要为大家献上一场精彩的落幕。<br><br>而猎手则抱怨干扰者过于执着于落幕，自己在她手下干活仅仅是没得选，还是离远点好。",
+			"image": "3-e-4_proj_anti_rain.png",
+			"position_y": 2,
+			"position_x": 11000,
+			"position_width": 300
+		},
+		{
+			"title": "HK416 寻找的线索 ♪",
+			"subtitle": "EP.04 风声（The Message）4-1 协助佣兵",
+			"content": "为了获取 S09 区内藏有的涉及铁血重要计划的文件，指挥官需要从战场侧面为主力小队（404 小队）提供掩护。<br><br>某座废弃铁血指挥室，HK416 与 UMP45 成功到达目标地点，这就是当时 AR 小组被代理人暴打过的地方。HK416 通过还原数据，查到了代理人的坐标，告诉了「9」让她继续追踪。<br><br>而 HK416 还想找点「那家伙」的线索，UMP45 建议她「你一个人别玩得太过头哦，你比我们都清楚，那家伙认真起来，可是很危险的。」",
+			"image": "4-1_hk416_clue.png",
+			"position_y": 0,
+			"position_x": 11300,
+			"position_width": 300
+		},
+		{
+			"title": "M16A1「还有点事儿要处理」",
+			"subtitle": "EP.04 风声（The Message）4-2 切断增员",
+			"content": "指挥官从赫丽安处得知，当地的铁血头目是新款人形「干扰者」，是个专注于指挥的人形。这次作战需要堵住侧面的通道，封锁她的防御手段，阻止铁血的增员部队，防止他们涌入战场。<br><br>战斗结束后，M4A1 收到了 M16A1 的通讯，在得知 AR-15 和 SOP-II 都安全后，M16A1 表示「还有点事儿要处理」，就匆匆切断了通讯。",
+			"image": "4-2_m16a1_ok.png",
+			"position_y": 1,
+			"position_x": 11400,
+			"position_width": 300
+		},
+		{
+			"title": "HK416 猎杀 M16A1 的代价",
+			"subtitle": "EP.04 风声（The Message）4-3 突破阵线",
+			"content": "「干扰者」直接使用公共广播直接通知 M4A1 等人，「主脑」是不会同意自己投降的，是时候进入正式开幕了。<br><br>同一时间，M16A1 的躲藏地点，HK416 直接找上门来想干掉 M16A1。<br><br>因为在 404 小队，有特殊权限，所以行动不受格里芬限制。而这份权限却是因为「蝴蝶行动」之前 M16A1 将 HK416 踢出行动组换来的，HK416 再也没法回到格里芬，这代价对 HK416 来说太过沉重了。",
+			"image": "4-3_only_that_time.png",
+			"position_y": 2,
+			"position_x": 11400,
+			"position_width": 300
+		},
+		{
+			"title": "「为什么 ... 我明明是，更优秀的人形 ...」",
+			"subtitle": "EP.04 风声（The Message）4-4 搜索同伴",
+			"content": "指挥官从赫丽安处得到消息，原本负责任务的 404 小队，不知为何关闭了通讯，因此需要指挥官去搜查她们的下落。<br><br>在 M16A1 的躲藏点，HK416 输掉了与 M16A1 的决斗，HK416 并不理解自己明明更优秀却无法战胜 M16A1 的原因，不明白自己在 M16A1 眼里究竟是什么。",
+			"image": "4-4_what_am_i.png",
+			"position_y": 1,
+			"position_x": 11700,
+			"position_width": 300
+		},
+		{
+			"title": "「所以我才讨厌你，M16」",
+			"subtitle": "EP.04 风声（The Message）4-4 搜索同伴",
+			"content": "M16A1 回答 HK416，仅仅是因为 HK416 对自己来说没有价值，没有兴趣，什么都不是。HK416 则只是生气，无论什么时候 M16A1 都是一副理所当然的表情，没有软弱的时候。M16A1 叹气说没有哪个人形是麻木的，这才是麻烦的地方 ...<br><br>胜负已分，M16A1 起身准备离开，因为 M4A1 还在等着她。「所以从这里让开吧，416。毕竟面对我 ... 你也不想动真格，对吗？」<br>「还有，记住这次教训。不然，我会让你的AI运算出自杀的合理性。」",
+			"image": "4-4_i_hate_u_m16.png",
+			"position_y": 2,
+			"position_x": 11700,
+			"position_width": 300
+		},
+		{
+			"title": "干扰者的任务",
+			"subtitle": "EP.04 风声（The Message）4-5 定位坐标",
+			"content": "M4A1 直接联络干扰者，质问 M16A1 的下落，而干扰者称自己并不知道，她接到的命令只是打发时间而已。<br><br>「如果主脑愿意，我可以坐下来和你们开心地喝茶。」<br><br>M4A1 告诉干扰者，很快就能见面了，但是干扰者却一副游刃有余的样子等着 M4A1 到来。",
+			"image": "4-5_tea.png",
+			"position_y": 0,
+			"position_x": 12000,
+			"position_width": 300
+		},
+		{
+			"title": "UMP45 与 M16A1 再见面",
+			"subtitle": "EP.04 风声（The Message）4-5 定位坐标",
+			"content": "M16A1 正准备从躲藏点撤退，UMP45 找上门来，为了接 HK416。UMP45 调侃了一把 M16A1 的「大杀器」，表示不是来跟 M16A1 打架的。<br><br>M16A1 感叹 404 小队只有几个人还敢独立行动，UMP45 却简单地表示，被委托搜集资料这种任务「9」一个人就够了，HK416 之前做得够多了就给她放了个假。<br><br>M16A1 却苦笑道，HK416 的休假方式就是想打断自己的腿。",
+			"image": "4-5_9_enough.png",
+			"position_y": 0,
+			"position_x": 12300,
+			"position_width": 300
+		},
+		{
+			"title": "「下雨了，在平原之上。」",
+			"subtitle": "EP.04 风声（The Message）4-5 定位坐标",
+			"content": "M16A1 饶了 HK416 一命，所以 UMP45 也说饶 M16A1 一命。（可见 UMP45 确实可以和 M16A1 一战）<br><br>UMP45 暗示 M16A1 现在回去很危险，M16A1 却很相信 16 LAB 的云图技术。（这里可以看出 M16A1 的心智云图也是可以备份的）<br><br>在追问下，UMP45 透露了这次 404 小队通过任务获得的情报：「下雨了，在平原之上。」，搞得 M16A1 一头雾水。",
+			"image": "4-5_raining.png",
+			"position_y": 1,
+			"position_x": 12300,
+			"position_width": 300
+		},
+		{
+			"title": "THOSE WHO DON'T EXIST",
+			"subtitle": "EP.04 风声（The Message）4-5 定位坐标",
+			"content": "UMP45 却说「1500 到 1700 近距离渗透后截获的通讯记录。一共搜索到 41960 个结果，当中提到了那个和基本战术常识不符的字段 — 你如果有兴趣，那看看这份对比图，更重要的是之后她要做的事情 ... 你们的“制造者”，会明白这个意思哦。」<br><br>UMP45 离开前还不忘提醒 M16A1 记得不要透露 404 小队的存在。（这里之所以只是提醒 M16A1 而不是直接消除记忆，可能也和 M16 心智坚固有关，M16A1 可能是为数不多的知道 404 存在的人形）",
+			"image": "4-5_ump45_brain.png",
+			"position_y": 2,
+			"position_x": 12300,
+			"position_width": 300
+		},
+		{
+			"title": "击败干扰者，但正戏即将上演",
+			"subtitle": "EP.04 风声（The Message）4-6 平息干扰",
+			"content": "指挥官从赫丽安处得知，404 小队突然下落不明，但她们留下了标记和通道，所以主攻任务由指挥官执行。<br><br>干扰者被击败，她自称任务已经完成了，而任务仅仅是拖住格里芬的时间，真正的剧目即将上演。<br><br>没等 M4A1 逼问，M16A1 刚好出现，M4A1 则重重打了 M16A1 一下「我都已经挂彩了，万一打死了怎么办！」「死掉了正好。也不用重新下载备份，直接让你回炉，然后重置记忆好了！」",
+			"image": "4-6_show_starting.png",
+			"position_y": 0,
+			"position_x": 12600,
+			"position_width": 300
+		},
+		{
+			"title": "M16A1 带来的情报",
+			"subtitle": "EP.04 风声（The Message）4-6 平息干扰",
+			"content": "M16A1 与指挥官相见，来不及客套，她赶快将获得的情报告诉了指挥官。<br><br>「下雨了，在平原之上。」<br><br>M4A1 也不清楚什么意思，但是 M16A1 告诉她是 UMP45 告诉她的，所以足以证明情报的危险性，总部那边很快就有大动静了。<br><br>M4A1 则表示，AR 小组已经重新聚在一起，还有了指挥官，无论什么命令，这次，一定没问题的。",
+			"image": "4-6_raining.png",
+			"position_y": 2,
+			"position_x": 12700,
+			"position_width": 300
 		}
+
 	]
 }
