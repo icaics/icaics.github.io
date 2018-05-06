@@ -520,13 +520,15 @@ function setHotkey() {
                 clickDetailBtn(-1);
                 break;
             case 38:
-                clickDetailBtn(-index);
+                // clickDetailBtn(-index);
+                clickDetailBtn(-10);
                 break;
             case 39:
                 clickDetailBtn(1);
                 break;
             case 40:
-                clickDetailBtn(data.length - 1);
+                // clickDetailBtn(data.length - 1);
+                clickDetailBtn(10);
                 break;
         };
         return false;
