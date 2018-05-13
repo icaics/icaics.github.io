@@ -2,7 +2,7 @@
 
 var image_scale = .56;
 var index = (localStorage.getItem('index')) ? parseInt(localStorage.getItem('index')) : 0;
-var lang, header, data;
+var lang, info, header, data;
 
 //
 
@@ -34,12 +34,32 @@ function initLang() {
 
 	localStorage.setItem('lang', lang);
     
+    $.getJSON('data/' + lang + '/info.json', function(jsonData) {
+
+        info = jsonData;
+        bindEnterAboutData();
+        loadJSONHeader();
+
+    });
+
+}
+
+function loadJSONHeader() {
+    
+    $.getJSON('data/' + lang + '/header.json', function(jsonData) {
+
+        header = jsonData;
+        loadJSONData();
+
+    });
+
+}
+
+function loadJSONData() {
+    
     $.getJSON('data/' + lang + '/data.json', function(jsonData) {
 
-        data = jsonData.data;
-        header = jsonData.header;
-
-        bindEnterAboutData(jsonData);
+        data = jsonData;
         initData();
 
     });
@@ -82,28 +102,28 @@ function enterStory() {
 
 }
 
-function bindEnterAboutData(jsonData) {
+function bindEnterAboutData() {
 
-    $(document).attr('title', jsonData.enter.title);
+    $(document).attr('title', info.enter.title);
 
-    $('#about_title').html(jsonData.about.title);
-    $('#about_tip').html(jsonData.about.tip);
-    $('#about_github').html(jsonData.about.github);
-    $('#about_producer').html(jsonData.about.producer);
-    $('#about_developer').html(jsonData.about.developer);
-    $('#about_dev_helper').html(jsonData.about.dev_helper);
-    $('#about_zh_cn').html(jsonData.about.zh_cn);
-    $('#about_zh_tw').html(jsonData.about.zh_tw);
-    $('#about_kr').html(jsonData.about.kr);
-    $('#about_en').html(jsonData.about.en);
-    $('#about_jp').html(jsonData.about.jp);
-    $('#about_close').html(jsonData.about.close);
+    $('#about_title').html(info.about.title);
+    $('#about_tip').html(info.about.tip);
+    $('#about_github').html(info.about.github);
+    $('#about_producer').html(info.about.producer);
+    $('#about_developer').html(info.about.developer);
+    $('#about_dev_helper').html(info.about.dev_helper);
+    $('#about_zh_cn').html(info.about.zh_cn);
+    $('#about_zh_tw').html(info.about.zh_tw);
+    $('#about_kr').html(info.about.kr);
+    $('#about_en').html(info.about.en);
+    $('#about_jp').html(info.about.jp);
+    $('#about_close').html(info.about.close);
 
-    $('#enter_title').html(jsonData.enter.title);
-    $('#enter_caution').html(jsonData.enter.caution);
-    $('#enter_info').html(jsonData.enter.info);
-    $('#enter_about').html(jsonData.enter.about);
-    $('#enter_enter').html(jsonData.enter.enter);
+    $('#enter_title').html(info.enter.title);
+    $('#enter_caution').html(info.enter.caution);
+    $('#enter_info').html(info.enter.info);
+    $('#enter_about').html(info.enter.about);
+    $('#enter_enter').html(info.enter.enter);
 
     $('#lang').children().css('color', '#FFF');
     $('#lang_' + lang).css('color', '#E78524');
@@ -521,14 +541,14 @@ function setHotkey() {
                 break;
             case 38:
                 // clickDetailBtn(-index);
-                clickDetailBtn(-10);
+                clickDetailBtn(-20);
                 break;
             case 39:
                 clickDetailBtn(1);
                 break;
             case 40:
                 // clickDetailBtn(data.length - 1);
-                clickDetailBtn(10);
+                clickDetailBtn(20);
                 break;
         };
         return false;

@@ -1,0 +1,22 @@
+{
+	"about": {
+		"title": "关于",
+		"tip": "个人总结制作，多有疏漏还请指正",
+		"github": "<a href='https://github.com/icaics/icaics.github.io/' target='_blank'>Github</a>",
+		"producer": "企划：<a href='https://weibo.com/icaics/' target='_blank'>@菜酱</a>",
+		"developer": "开发：<a href='https://weibo.com/icaics/' target='_blank'>@菜酱</a>",
+		"dev_helper": "开发协力：N/A",
+		"zh_cn": "简中版本：<a href='https://weibo.com/icaics/' target='_blank'>@菜酱</a>",
+		"zh_tw": "繁中版本：N/A",
+		"en": "英语版本：N/A",
+		"jp": "日语版本：N/A",
+		"close": "返回"
+	},
+	"enter": {
+		"title": "少女前线剧情时间轴",
+		"caution": "涉及剧透，请谨慎点击进入观看",
+		"info": "个人总结制作，多有疏漏还请指正",
+		"about": "关于",
+		"enter": "进入剧情"
+	}
+}

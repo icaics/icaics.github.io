@@ -1,0 +1,110 @@
+[
+	{
+		"title": "写在前面",
+		"position_x": 0
+	},
+	{
+		"title": "1905 年",
+		"position_x": 200
+	},
+	{
+		"title": "1980 年代",
+		"position_x": 500
+	},
+	{
+		"title": "2030 年 12 月 12 日",
+		"position_x": 800
+	},
+	{
+		"title": "2031 年",
+		"position_x": 1100
+	},
+	{
+		"title": "2032 年",
+		"position_x": 1400
+	},
+	{
+		"title": "2033 年 10 月 3 日 - 2038 年",
+		"position_x": 1700
+	},
+	{
+		"title": "2045 年 8 月 13 日 - 2051 年 6 月 29 日",
+		"position_x": 2000
+	},
+	{
+		"title": "2053 年 6 月 11 日 - 2055 年",
+		"position_x": 2600
+	},
+	{
+		"title": "2057 年",
+		"position_x": 3200
+	},
+	{
+		"title": "2058 年 - 2060 年",
+		"position_x": 3500
+	},
+	{
+		"title": "2061 年",
+		"position_x": 3800
+	},
+	{
+		"title": "「蝴蝶行动」前",
+		"position_x": 4100
+	},
+	{
+		"title": "2061 年 3 月 29 日",
+		"position_x": 4400
+	},
+	{
+		"title": "「蝴蝶行动」后",
+		"position_x": 5300
+	},
+	{
+		"title": "EP.00 种子（The Seed）",
+		"position_x": 5600
+	},
+	{
+		"title": "2062 年 5 月 20 日",
+		"position_x": 5900
+	},
+	{
+		"title": "EP.01 苏醒（Wake Up）",
+		"position_x": 6200
+	},
+	{
+		"title": "EP.01 苏醒（Wake Up）EMERGENCY",
+		"position_x": 7100
+	},
+	{
+		"title": "EP.02 回声（The Echo）",
+		"position_x": 7400
+	},
+	{
+		"title": "EP.02 回声（The Echo）EMERGENCY",
+		"position_x": 8300
+	},
+	{
+		"title": "EP.03 沉默（Silence）",
+		"position_x": 8600
+	},
+	{
+		"title": "EP.03 沉默（Silence）EMERGENCY",
+		"position_x": 9500
+	},
+	{
+		"title": "EP.04 风声（The Message）",
+		"position_x": 9800
+	},
+	{
+		"title": "EP.04 风声（The Message）EMERGENCY",
+		"position_x": 11300
+	},
+	{
+		"title": "[REPLAY] EP.00 种子（The Seed）",
+		"position_x": 12200
+	},
+	{
+		"title": "EP.05 火种（The Kindling）",
+		"position_x": 12500
+	}
+]
