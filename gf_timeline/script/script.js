@@ -126,7 +126,7 @@ function bindEnterAboutData() {
     $('#enter_enter').html(info.enter.enter);
 
     $('#lang').children().css('color', '#FFF');
-    $('#lang_' + lang).css('color', '#E78524');
+    $('#lang_' + lang).css('color', '#FBA400');
 
 }
 
@@ -235,6 +235,15 @@ function setupViews() {
         detail_frame_text.width(detail_frame.width() - detail_frame.width() * .12);
 
     }
+
+	var detail_btnskip_left = $('#detail_btnskip_left');
+    detail_btnskip_left.height(detail.height() * .15);
+    detail_btnskip_left.css({'left': 0});
+    detail_btnskip_left.width(detail_btnleft.width());
+    var detail_btnskip_right = $('#detail_btnskip_right');
+    detail_btnskip_right.height(detail_btnskip_left.height());
+    detail_btnskip_right.css({'left': detail.width() - detail_btnright.width()});
+    detail_btnskip_right.width(detail_btnright.width());
 
     var timeline = $('#timeline');
     timeline.css('margin-top', '10px');

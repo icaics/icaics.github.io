@@ -190,6 +190,15 @@ body {
 	justify-content: center;
 }
 
+#detail_btnskip_left, #detail_btnskip_right {
+	background-color: #101010;
+	color: #FFF;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+}
+
 #detail_frame {
 	color: #FFF;
 	display: flex;
