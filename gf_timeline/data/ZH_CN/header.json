@@ -110,5 +110,13 @@
 	{
 		"title": "EP.05 火种（The Kindling）EMERGENCY",
 		"position_x": 13700
+	},
+	{
+		"title": "EP.06 彗星（Comet）& EP.06 彗星（Comet）EMERGENCY & SP.01 魔方行动（Operation Cube）",
+		"position_x": 14300
+	},
+	{
+		"title": "[ANALYSIS] EP.06 & SP.01",
+		"position_x": 19700
 	}
 ]

@@ -151,7 +151,13 @@ function closeAbout() {
 function initData() {
 
     var storageIndex = parseInt(localStorage.getItem('index'));
-    if (storageIndex && storageIndex < data.length) index = storageIndex;
+    if (storageIndex && storageIndex < data.length) {
+        index = storageIndex;
+    }
+    else {
+        index = 0;
+        localStorage.setItem('index', index);
+    }
 
     bindDetailData();
     initTimelineViews();
