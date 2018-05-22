@@ -562,25 +562,38 @@ function setTimelineDrag() {
 
 }
 
+var btnflag = false;
+var prevbtn = 0;
+
 function setHotkey() {
 
     $(document).keydown(function (event) {
-        switch (event.keyCode) {
-            case 37:
-                clickDetailBtn(-1);
-                break;
-            case 38:
-                // clickDetailBtn(-index);
-                clickDetailBtn(-20);
-                break;
-            case 39:
-                clickDetailBtn(1);
-                break;
-            case 40:
-                // clickDetailBtn(data.length - 1);
-                clickDetailBtn(20);
-                break;
-        };
+	if(!btnflag){
+            btnflag = true;
+            prevbtn = event.which;
+            setTimeout(function(){btnflag = false;}, 450) // key responding time to 0.45s
+
+	    switch (event.keyCode) {
+            	case 37:
+            		clickDetailBtn(-1);
+                	break;
+            	case 38:
+                	// clickDetailBtn(-index);
+                	clickDetailBtn(-20);
+                	break;
+            	case 39:
+                	clickDetailBtn(1);
+                	break;
+            	case 40:
+                	// clickDetailBtn(data.length - 1);
+                	clickDetailBtn(20);
+                	break;
+	    }
+        }
+	else if (prevbtn != event.which){
+		btnflag = false;
+	}
+	    
         return false;
     });
 
