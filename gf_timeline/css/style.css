@@ -255,6 +255,7 @@ body {
 #info_detail {
 	font-size: 14px;
 	color: #999;
+	line-height: 26px;
 }
 
 #info_close {
