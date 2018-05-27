@@ -3,24 +3,12 @@
 	"close": "返回",
 	"index": [
 		{
-			"title": "写在前面",
-			"index": 0
-		},
-		{
 			"title": "背景故事",
 			"index": 3
 		},
 		{
-			"title": "「蝴蝶行动」",
-			"index": 22
-		},
-		{
 			"title": "EP.00 种子（The Seed）",
 			"index": 29
-		},
-		{
-			"title": "「少女前线 Girls' Frontline」",
-			"index": 31
 		},
 		{
 			"title": "EP.01 苏醒（Wake Up）",
@@ -53,10 +41,6 @@
 		{
 			"title": "SP.01 魔方行动（Operation Cube）",
 			"index": 123
-		},
-		{
-			"title": "[ANALYSIS] EP.06 彗星 & SP.01 魔方行动",
-			"index": 139
 		},
 		{
 			"title": "未完待续 To Be Continued ...",
