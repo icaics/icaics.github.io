@@ -6,6 +6,11 @@
 	<meta name="keywords" content="">
 	<meta http-equiv="Content-Type" content="text/html;" charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge，chrome=1">
+
+	<meta name="keywords" content="少女前线时间轴, GirlsFrontline">
+	<meta name="description" content="少女前线主线剧情时间轴, Girls' Frontline Story Timeline">
+	<meta name="Robots" contect="index">
 
 	<title></title>
 
@@ -16,8 +21,10 @@
 
 <body ontouchmove="event.preventDefault()">
 	
-	<!-- <div style="display: none;"><img src="../image/icon.png"/></div> -->
+	<!-- WeChat Share -->
+	<div style="display: none;"><img src="image/icon.png"/></div>
 
+	<!-- About -->
 	<div id="about_frame">
 		<div id="about_bk">
 
@@ -43,6 +50,7 @@
 		</div>
 	</div>
 
+	<!-- Enter -->
 	<div id="enter_frame">
 		<div id="enter_bk">
 
@@ -69,6 +77,37 @@
 		</div>
 	</div>
 
+	<!-- Info -->
+	<div id="info_frame">
+		<div id="info_bk">
+
+			<div id="info_content">
+
+				<div id="info_title"></div>
+				<div id="info_detail"></div>
+				<div id="info_close" onclick="closeInfo()"></div>
+
+			</div>
+
+		</div>
+	</div>
+
+	<!-- Catalog -->
+	<div id="catalog_frame">
+		<div id="catalog_bk">
+
+			<div id="catalog_content">
+
+				<div id="catalog_title"></div>
+				<div id="catalog_detail"></div>
+				<div id="catalog_close" onclick="closeCatalog()"></div>
+
+			</div>
+
+		</div>
+	</div>
+
+	<!-- Main -->
 	<div id="main_frame">
 
 		<div id="detail">
@@ -77,6 +116,12 @@
 			</div>
 			<div id="detail_btnskip_right" onclick="clickDetailBtn(20)">
 				<img src="image/btn_skip_right.png">
+			</div>
+			<div id="detail_btn_index" onclick="clickCatalogBtn()">
+				<img src="image/btn_index.png">
+			</div>
+			<div id="detail_btn_info" onclick="clickInfoBtn()">
+				<img src="image/btn_info.png">
 			</div>
 			<div id="detail_btnleft" onclick="clickDetailBtn(-1)">
 				<img src="image/btn_left.png">

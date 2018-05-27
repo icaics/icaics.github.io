@@ -8,6 +8,7 @@
 		"position_x": 0,
 		"position_width": 200
 	},
+	
 	{
 		"title": "更新记录",
 		"subtitle": "最新更新时间：2018-04-14",
@@ -17,6 +18,7 @@
 		"position_x": 0,
 		"position_width": 200
 	},
+	
 	{
 		"title": "参考资料",
 		"subtitle": "感谢指挥官们的无私奉献，如有冒犯请联系我",
@@ -26,6 +28,7 @@
 		"position_x": 0,
 		"position_width": 200
 	},
+	
 	{
 		"title": "「坍塌」与「逆向坍塌」技术",
 		"subtitle": "背景故事",
@@ -35,6 +38,7 @@
 		"position_x": 200,
 		"position_width": 300
 	},
+	
 	{
 		"title": "「欧伽斯」系统原型与「梭鱼」",
 		"subtitle": "SP.05 塌缩点 - 终局 - 最终手段",
@@ -44,6 +48,7 @@
 		"position_x": 500,
 		"position_width": 300
 	},
+	
 	{
 		"title": "「北兰岛事件」",
 		"subtitle": "背景故事",
@@ -53,6 +58,7 @@
 		"position_x": 800,
 		"position_width": 300
 	},
+	
 	{
 		"title": "「铁血工造」成立",
 		"subtitle": "背景故事",
@@ -62,6 +68,7 @@
 		"position_x": 1100,
 		"position_width": 300
 	},
+	
 	{
 		"title": "遗迹编号 OKB-413",
 		"subtitle": "SP.05 塌缩点 - 终局 - 最终手段",
@@ -71,6 +78,7 @@
 		"position_x": 1400,
 		"position_width": 300
 	},
+	
 	{
 		"title": "「自律人形」技术出现",
 		"subtitle": "背景故事",
@@ -80,6 +88,7 @@
 		"position_x": 1700,
 		"position_width": 300
 	},
+	
 	{
 		"title": "「第三次世界大战」",
 		"subtitle": "背景故事",
@@ -89,6 +98,7 @@
 		"position_x": 2000,
 		"position_width": 600
 	},
+	
 	{
 		"title": "「重要行动原型机械制造公司」成立",
 		"subtitle": "背景故事 - 第三次世界大战期间",
@@ -98,6 +108,7 @@
 		"position_x": 2000,
 		"position_width": 300
 	},
+	
 	{
 		"title": "「90 WISH」发布技术共享声明",
 		"subtitle": "背景故事 - 2049 年 1 月 9 日",
@@ -107,6 +118,7 @@
 		"position_x": 2000,
 		"position_width": 300
 	},
+	
 	{
 		"title": "人类女孩「露尼西亚」",
 		"subtitle": "SP.05 塌缩点 - 终局 - 最终手段",
@@ -116,6 +128,7 @@
 		"position_x": 2300,
 		"position_width": 300
 	},
+	
 	{
 		"title": "克鲁格创立「格里芬军事安全承包商」",
 		"subtitle": "背景故事",
@@ -125,6 +138,7 @@
 		"position_x": 2600,
 		"position_width": 600
 	},
+	
 	{
 		"title": "「齐纳协议」与「蚀刻」理论",
 		"subtitle": "背景故事 - 2054 年",
@@ -134,6 +148,7 @@
 		"position_x": 2600,
 		"position_width": 300
 	},
+	
 	{
 		"title": "莱柯加入「铁血工造」",
 		"subtitle": "SP.05 塌缩点 - 终局 - 最终手段 - 2054 年",
@@ -143,6 +158,7 @@
 		"position_x": 2600,
 		"position_width": 300
 	},
+	
 	{
 		"title": "「伊莱莎（Elisa）」诞生",
 		"subtitle": "SP.05 塌缩点 - 终局 - 最终手段 - 2054 年",
@@ -152,6 +168,7 @@
 		"position_x": 2900,
 		"position_width": 300
 	},
+	
 	{
 		"title": "「16 LAB」成立",
 		"subtitle": "背景故事",
@@ -161,6 +178,7 @@
 		"position_x": 3200,
 		"position_width": 300
 	},
+	
 	{
 		"title": "「第二代战术人形」问世",
 		"subtitle": "背景故事",
@@ -170,6 +188,7 @@
 		"position_x": 3500,
 		"position_width": 300
 	},
+	
 	{
 		"title": "「M4A1」战术人形诞生",
 		"subtitle": "背景故事",
@@ -179,6 +198,7 @@
 		"position_x": 3800,
 		"position_width": 300
 	},
+	
 	{
 		"title": "「AR（Anti-Rain）特勤小组」诞生",
 		"subtitle": "背景故事",
@@ -188,6 +208,7 @@
 		"position_x": 3800,
 		"position_width": 300
 	},
+	
 	{
 		"title": "两具素体",
 		"subtitle": "SP.04 深层映射 - 双曲函数 相对行为",
@@ -197,6 +218,7 @@
 		"position_x": 4100,
 		"position_width": 300
 	},
+	
 	{
 		"title": "「蝴蝶行动」",
 		"subtitle": "背景故事",
@@ -206,6 +228,7 @@
 		"position_x": 4400,
 		"position_width": 900
 	},
+	
 	{
 		"title": "「M16A1」与「HK416」",
 		"subtitle": "SP.04 深层映射 - 双曲函数 相对行为",
@@ -215,6 +238,7 @@
 		"position_x": 4400,
 		"position_width": 300
 	},
+	
 	{
 		"title": "「UMP40」与「UMP45」",
 		"subtitle": "SP.04 深层映射 - 相对行为",
@@ -224,6 +248,7 @@
 		"position_x": 4400,
 		"position_width": 300
 	},
+	
 	{
 		"title": "「莱柯·瑞斯」之死",
 		"subtitle": "SP.04 深层映射 - 相对行为",
@@ -233,6 +258,7 @@
 		"position_x": 4700,
 		"position_width": 300
 	},
+	
 	{
 		"title": "「UMP40」的宿命",
 		"subtitle": "SP.04 深层映射 - 相对行为",
@@ -242,6 +268,7 @@
 		"position_x": 4700,
 		"position_width": 300
 	},
+	
 	{
 		"title": "「M16A1」与「UMP45」",
 		"subtitle": "SP.04 深层映射 - 相对行为",
@@ -251,6 +278,7 @@
 		"position_x": 5000,
 		"position_width": 300
 	},
+	
 	{
 		"title": "「父亲」莱柯留下的资料",
 		"subtitle": "背景故事",
@@ -260,6 +288,7 @@
 		"position_x": 5300,
 		"position_width": 300
 	},
+	
 	{
 		"title": "3 号安全屋行动",
 		"subtitle": "EP.00 种子（The Seed）",
@@ -269,6 +298,7 @@
 		"position_x": 5600,
 		"position_width": 300
 	},
+	
 	{
 		"title": "AR 小组遇袭分散逃亡",
 		"subtitle": "EP.00 种子（The Seed）0-4 最终挑战",
@@ -278,6 +308,7 @@
 		"position_x": 5600,
 		"position_width": 300
 	},
+	
 	{
 		"title": "「少女前线 Girls' Frontline」",
 		"subtitle": "游戏开始，指挥官就任",
@@ -287,6 +318,7 @@
 		"position_x": 5900,
 		"position_width": 300
 	},
+	
 	{
 		"title": "更新世界的锋芒！",
 		"subtitle": "EP.01 苏醒（Wake Up）1-1 演习训练",
@@ -296,6 +328,7 @@
 		"position_x": 6200,
 		"position_width": 300
 	},
+	
 	{
 		"title": "第一个任务",
 		"subtitle": "EP.01 苏醒（Wake Up）1-2 转移伤患",
@@ -305,6 +338,7 @@
 		"position_x": 6200,
 		"position_width": 300
 	},
+	
 	{
 		"title": "MAC-10（英格拉姆）",
 		"subtitle": "EP.01 苏醒（Wake Up）1-3 调查异常",
@@ -324,6 +358,7 @@
 		"position_x": 6500,
 		"position_width": 300
 	},
+	
 	{
 		"title": "VZ61（蝎式）",
 		"subtitle": "EP.01 苏醒（Wake Up）1-5 救援信号",
@@ -333,6 +368,7 @@
 		"position_x": 6500,
 		"position_width": 300
 	},
+	
 	{
 		"title": "型号 SP65「Scarecrow」— 稻草人",
 		"subtitle": "EP.01 苏醒（Wake Up）1-6 除草行动",
@@ -342,6 +378,7 @@
 		"position_x": 6800,
 		"position_width": 300
 	},
+	
 	{
 		"title": "联谊败犬 ？！",
 		"subtitle": "EP.01 苏醒（Wake Up）1-4E 进阶训练",
@@ -351,6 +388,7 @@
 		"position_x": 7100,
 		"position_width": 300
 	},
+	
 	{
 		"title": "流程编号 835492660223",
 		"subtitle": "EP.02 苏醒（The Echo）2-1 追踪日志",
@@ -360,6 +398,7 @@
 		"position_x": 7400,
 		"position_width": 300
 	},
+	
 	{
 		"title": "可疑人形",
 		"subtitle": "EP.02 苏醒（The Echo）2-2 紧急支援",
@@ -369,6 +408,7 @@
 		"position_x": 7400,
 		"position_width": 300
 	},
+	
 	{
 		"title": "又呆又楞的人形？",
 		"subtitle": "EP.02 苏醒（The Echo）2-3 调查敌情",
@@ -378,6 +418,7 @@
 		"position_x": 7400,
 		"position_width": 300
 	},
+	
 	{
 		"title": "着重培养",
 		"subtitle": "EP.02 苏醒（The Echo）2-4 采集数据",
@@ -387,6 +428,7 @@
 		"position_x": 7700,
 		"position_width": 300
 	},
+	
 	{
 		"title": "「19 点 25 分，逃亡第 70 天」",
 		"subtitle": "EP.02 苏醒（The Echo）2-5 额外委托",
@@ -396,6 +438,7 @@
 		"position_x": 7700,
 		"position_width": 300
 	},
+	
 	{
 		"title": "型号 SP524「Executioner」— 刽子手",
 		"subtitle": "EP.02 苏醒（The Echo）2-6 终止作战",
@@ -405,6 +448,7 @@
 		"position_x": 8000,
 		"position_width": 300
 	},
+	
 	{
 		"title": "M4A1 的请求",
 		"subtitle": "EP.02 苏醒（The Echo）2-6 终止作战",
@@ -414,6 +458,7 @@
 		"position_x": 8000,
 		"position_width": 300
 	},
+	
 	{
 		"title": "帕斯卡与 M4A1",
 		"subtitle": "EP.02 苏醒（The Echo）2-3E 战地样本",
@@ -423,6 +468,7 @@
 		"position_x": 8300,
 		"position_width": 300
 	},
+	
 	{
 		"title": "样本结果：相去甚远",
 		"subtitle": "EP.02 苏醒（The Echo）2-4E 战地样本",
@@ -432,6 +478,7 @@
 		"position_x": 8300,
 		"position_width": 300
 	},
+	
 	{
 		"title": "M16A1「放心吧，我们会见面的」",
 		"subtitle": "EP.03 沉默（Silence）3-1 打通入口",
@@ -441,6 +488,7 @@
 		"position_x": 8600,
 		"position_width": 300
 	},
+	
 	{
 		"title": "AR-15「我还有笔账要算」",
 		"subtitle": "EP.03 沉默（Silence）3-2 截获情报",
@@ -450,6 +498,7 @@
 		"position_x": 8600,
 		"position_width": 300
 	},
+	
 	{
 		"title": "M4 SOPMOD II",
 		"subtitle": "EP.03 沉默（Silence）3-3 秘密支援",
@@ -459,6 +508,7 @@
 		"position_x": 8600,
 		"position_width": 300
 	},
+	
 	{
 		"title": "「指挥官，没时间解释了，快上车！」",
 		"subtitle": "EP.03 沉默（Silence）3-4 防御作战",
@@ -468,6 +518,7 @@
 		"position_x": 8900,
 		"position_width": 300
 	},
+	
 	{
 		"title": "「真正的猎手，会选择沉默」",
 		"subtitle": "EP.03 沉默（Silence）3-4 防御作战",
@@ -477,6 +528,7 @@
 		"position_x": 8900,
 		"position_width": 300
 	},
+	
 	{
 		"title": "型号 SP721「Hunter」— 猎手",
 		"subtitle": "EP.03 沉默（Silence）3-5 快速反击",
@@ -486,6 +538,7 @@
 		"position_x": 9200,
 		"position_width": 300
 	},
+	
 	{
 		"title": "AR-15 的特殊能力",
 		"subtitle": "EP.03 沉默（Silence）3-6 禁止狩猎",
@@ -495,6 +548,7 @@
 		"position_x": 9200,
 		"position_width": 300
 	},
+	
 	{
 		"title": "「M16，现在就差你了 ... 」",
 		"subtitle": "EP.03 沉默（Silence）3-6 禁止狩猎",
@@ -504,6 +558,7 @@
 		"position_x": 9200,
 		"position_width": 300
 	},
+	
 	{
 		"title": "调查 S09 区，收集铁血遗留下的情报",
 		"subtitle": "EP.03 沉默（Silence）3-3E 回收数据",
@@ -513,6 +568,7 @@
 		"position_x": 9500,
 		"position_width": 300
 	},
+	
 	{
 		"title": "3 号安全屋的「资料」与「伞」计划",
 		"subtitle": "EP.03 沉默（Silence）3-4E 回收数据",
@@ -522,6 +578,7 @@
 		"position_x": 9500,
 		"position_width": 300
 	},
+	
 	{
 		"title": "HK416 寻找的线索",
 		"subtitle": "EP.04 风声（The Message）4-1 协助佣兵",
@@ -531,6 +588,7 @@
 		"position_x": 9800,
 		"position_width": 300
 	},
+	
 	{
 		"title": "M16A1「还有点事儿要处理」",
 		"subtitle": "EP.04 风声（The Message）4-2 切断增员",
@@ -540,6 +598,7 @@
 		"position_x": 9800,
 		"position_width": 300
 	},
+	
 	{
 		"title": "HK416 猎杀 M16A1 的代价",
 		"subtitle": "EP.04 风声（The Message）4-3 突破阵线",
@@ -549,6 +608,7 @@
 		"position_x": 9800,
 		"position_width": 300
 	},
+	
 	{
 		"title": "「为什么 ... 我明明是，更优秀的人形 ... 」",
 		"subtitle": "EP.04 风声（The Message）4-4 搜索同伴",
@@ -558,6 +618,7 @@
 		"position_x": 10100,
 		"position_width": 300
 	},
+	
 	{
 		"title": "「所以我才讨厌你，M16」",
 		"subtitle": "EP.04 风声（The Message）4-4 搜索同伴",
@@ -567,6 +628,7 @@
 		"position_x": 10100,
 		"position_width": 300
 	},
+	
 	{
 		"title": "干扰者的任务",
 		"subtitle": "EP.04 风声（The Message）4-5 定位坐标",
@@ -576,6 +638,7 @@
 		"position_x": 10400,
 		"position_width": 300
 	},
+	
 	{
 		"title": "UMP45 与 M16A1 再见面",
 		"subtitle": "EP.04 风声（The Message）4-5 定位坐标",
@@ -585,6 +648,7 @@
 		"position_x": 10700,
 		"position_width": 300
 	},
+	
 	{
 		"title": "「下雨了，在平原之上。」",
 		"subtitle": "EP.04 风声（The Message）4-5 定位坐标",
@@ -594,6 +658,7 @@
 		"position_x": 10700,
 		"position_width": 300
 	},
+	
 	{
 		"title": "THOSE WHO DON'T EXIST ♪",
 		"subtitle": "EP.04 风声（The Message）4-5 定位坐标",
@@ -603,6 +668,7 @@
 		"position_x": 10700,
 		"position_width": 300
 	},
+	
 	{
 		"title": "型号 SP914「Intruder」— 干扰者",
 		"subtitle": "EP.04 风声（The Message）4-6 平息干扰",
@@ -612,6 +678,7 @@
 		"position_x": 11000,
 		"position_width": 300
 	},
+	
 	{
 		"title": "M16A1 带来的情报",
 		"subtitle": "EP.04 风声（The Message）4-6 平息干扰",
@@ -621,6 +688,7 @@
 		"position_x": 11000,
 		"position_width": 300
 	},
+	
 	{
 		"title": "'They...''...are...''...in your...''...house.'",
 		"subtitle": "EP.04 风声（The Message）4-1E 记忆回溯",
@@ -630,6 +698,7 @@
 		"position_x": 11300,
 		"position_width": 300
 	},
+	
 	{
 		"title": "心智云图",
 		"subtitle": "EP.04 风声（The Message）4-1E 记忆回溯",
@@ -639,6 +708,7 @@
 		"position_x": 11300,
 		"position_width": 300
 	},
+	
 	{
 		"title": "'They....are...''...in your...''...car.'",
 		"subtitle": "EP.04 风声（The Message）4-2E 记忆回溯",
@@ -648,6 +718,7 @@
 		"position_x": 11600,
 		"position_width": 300
 	},
+	
 	{
 		"title": "'They...are...''...in the skies...'",
 		"subtitle": "EP.04 风声（The Message）4-3E 记忆回溯",
@@ -657,6 +728,7 @@
 		"position_x": 11600,
 		"position_width": 300
 	},
+	
 	{
 		"title": "'Now...''...they're...''...coming for...''...you.'",
 		"subtitle": "EP.04 风声（The Message）4-4E 记忆回溯",
@@ -666,6 +738,7 @@
 		"position_x": 11900,
 		"position_width": 300
 	},
+	
 	{
 		"title": "通往过去的记忆",
 		"subtitle": "EP.04 风声（The Message）4-4E 记忆回溯",
@@ -675,6 +748,7 @@
 		"position_x": 11900,
 		"position_width": 300
 	},
+	
 	{
 		"title": "第零章节与 3 号安全屋行动分析 I",
 		"subtitle": "EP.00 种子（The Seed）",
@@ -684,6 +758,7 @@
 		"position_x": 12200,
 		"position_width": 300
 	},
+	
 	{
 		"title": "第零章节与 3 号安全屋行动分析 II",
 		"subtitle": "EP.00 种子（The Seed）",
@@ -693,6 +768,7 @@
 		"position_x": 12200,
 		"position_width": 300
 	},
+	
 	{
 		"title": "秘密会议",
 		"subtitle": "EP.05 火种（The Kindling）5-1 参加演习",
@@ -702,6 +778,7 @@
 		"position_x": 12500,
 		"position_width": 300
 	},
+	
 	{
 		"title": "格里芬最高执行官克鲁格",
 		"subtitle": "EP.05 火种（The Kindling）5-2 抵挡突袭",
@@ -711,6 +788,7 @@
 		"position_x": 12500,
 		"position_width": 300
 	},
+	
 	{
 		"title": "型号 SP5NANO「Destroyer」— 破坏者",
 		"subtitle": "EP.05 火种（The Kindling）5-3 反戈一击",
@@ -720,6 +798,7 @@
 		"position_x": 12500,
 		"position_width": 300
 	},
+	
 	{
 		"title": "AR-15？！只是排查嫌疑而已",
 		"subtitle": "EP.05 火种（The Kindling）5-4 保证撤离",
@@ -729,6 +808,7 @@
 		"position_x": 12800,
 		"position_width": 300
 	},
+	
 	{
 		"title": "被封闭的 AR-15",
 		"subtitle": "EP.05 火种（The Kindling）5-5 内部现象",
@@ -738,6 +818,7 @@
 		"position_x": 12800,
 		"position_width": 300
 	},
+	
 	{
 		"title": "「忤逆」AR-15",
 		"subtitle": "EP.05 火种（The Kindling）5-5 内部现象",
@@ -747,6 +828,7 @@
 		"position_x": 12800,
 		"position_width": 300
 	},
+	
 	{
 		"title": "我比你更了解 AR-15，更了解 AR 小组",
 		"subtitle": "EP.05 火种（The Kindling）5-6 追击密令",
@@ -756,6 +838,7 @@
 		"position_x": 13100,
 		"position_width": 300
 	},
+	
 	{
 		"title": "「看来仅仅关闭通讯，还不够呢」",
 		"subtitle": "EP.05 火种（The Kindling）5-6 追击密令",
@@ -765,6 +848,7 @@
 		"position_x": 13400,
 		"position_width": 300
 	},
+	
 	{
 		"title": "「AR-15，你是被选中的」",
 		"subtitle": "EP.05 火种（The Kindling）5-6 追击密令",
@@ -774,6 +858,7 @@
 		"position_x": 13400,
 		"position_width": 300
 	},
+	
 	{
 		"title": "「我唯一的价值，唯一的命运」",
 		"subtitle": "EP.05 火种（The Kindling）5-6 追击密令",
@@ -783,6 +868,7 @@
 		"position_x": 13400,
 		"position_width": 300
 	},
+	
 	{
 		"title": "暂停追击",
 		"subtitle": "EP.05 火种（The Kindling）5-1E 谜题破解",
@@ -792,6 +878,7 @@
 		"position_x": 13700,
 		"position_width": 300
 	},
+	
 	{
 		"title": "万分抱歉，克鲁格先生！",
 		"subtitle": "EP.05 火种（The Kindling）5-2E 谜题破解",
@@ -801,6 +888,7 @@
 		"position_x": 13700,
 		"position_width": 300
 	},
+	
 	{
 		"title": "我们可不是什么安保小队！",
 		"subtitle": "EP.05 火种（The Kindling）5-2E 谜题破解",
@@ -810,6 +898,7 @@
 		"position_x": 13700,
 		"position_width": 300
 	},
+	
 	{
 		"title": "感情本身就是缺陷",
 		"subtitle": "EP.05 火种（The Kindling）5-3E 谜题破解",
@@ -819,6 +908,7 @@
 		"position_x": 14000,
 		"position_width": 300
 	},
+	
 	{
 		"title": "你真的遇到“她”了？",
 		"subtitle": "EP.05 火种（The Kindling）5-4E 谜题破解",
@@ -828,6 +918,7 @@
 		"position_x": 14000,
 		"position_width": 300
 	},
+	
 	{
 		"title": "那 ... 我们的决定是 ...",
 		"subtitle": "EP.05 火种（The Kindling）5-4E 谜题破解",
@@ -837,6 +928,7 @@
 		"position_x": 14000,
 		"position_width": 300
 	},
+	
 	{
 		"title": "第六章节内容简述",
 		"subtitle": "EP.06 彗星（Comet）",
@@ -846,6 +938,7 @@
 		"position_x": 14300,
 		"position_width": 300
 	},
+	
 	{
 		"title": "内格夫小队加入 AR-15 的搜寻",
 		"subtitle": "EP.06 彗星（Comet）6-1 内格夫小队",
@@ -855,6 +948,7 @@
 		"position_x": 14600,
 		"position_width": 300
 	},
+	
 	{
 		"title": "内格夫小队遭遇炼金术士",
 		"subtitle": "EP.06 彗星（Comet）6-1 内格夫小队",
@@ -864,6 +958,7 @@
 		"position_x": 14600,
 		"position_width": 300
 	},
+	
 	{
 		"title": "加利尔成功求援，兵分两路",
 		"subtitle": "EP.06 彗星（Comet）6-2 双重救援",
@@ -873,6 +968,7 @@
 		"position_x": 14900,
 		"position_width": 300
 	},
+	
 	{
 		"title": "M4A1 与 SOP-II 被 AR-15 伏击",
 		"subtitle": "EP.06 彗星（Comet）6-3 重逢",
@@ -882,6 +978,7 @@
 		"position_x": 14900,
 		"position_width": 300
 	},
+	
 	{
 		"title": "SOP-II 信号被找到",
 		"subtitle": "EP.06 彗星（Comet）6-4 监禁者",
@@ -891,6 +988,7 @@
 		"position_x": 15200,
 		"position_width": 300
 	},
+	
 	{
 		"title": "赫丽安要求全体人形撤离 S08 区",
 		"subtitle": "EP.06 彗星（Comet）6-4 监禁者",
@@ -900,6 +998,7 @@
 		"position_x": 15200,
 		"position_width": 300
 	},
+	
 	{
 		"title": "M4A1 与 AR-15 见面",
 		"subtitle": "EP.06 彗星（Comet）6-4 监禁者",
@@ -909,6 +1008,7 @@
 		"position_x": 15500,
 		"position_width": 300
 	},
+	
 	{
 		"title": "AR-15 的三个问题",
 		"subtitle": "EP.06 彗星（Comet）6-4 监禁者",
@@ -918,6 +1018,7 @@
 		"position_x": 15500,
 		"position_width": 300
 	},
+	
 	{
 		"title": "M16A1 与 SOP-II 再次进入屏蔽网",
 		"subtitle": "EP.06 彗星（Comet）6-5 意志",
@@ -927,6 +1028,7 @@
 		"position_x": 15800,
 		"position_width": 300
 	},
+	
 	{
 		"title": "伊莱莎与 M4A1 首次对话",
 		"subtitle": "EP.06 彗星（Comet）6-5 意志",
@@ -936,6 +1038,7 @@
 		"position_x": 15800,
 		"position_width": 300
 	},
+	
 	{
 		"title": "M4A1 加密的心智",
 		"subtitle": "EP.06 彗星（Comet）6-5 意志",
@@ -945,6 +1048,7 @@
 		"position_x": 16100,
 		"position_width": 300
 	},
+	
 	{
 		"title": "谈判破裂",
 		"subtitle": "EP.06 彗星（Comet）6-5 意志",
@@ -954,6 +1058,7 @@
 		"position_x": 16100,
 		"position_width": 300
 	},
+	
 	{
 		"title": "撤离战况完全失控",
 		"subtitle": "EP.06 彗星（Comet）6-1E 最后的愿望",
@@ -963,6 +1068,7 @@
 		"position_x": 16400,
 		"position_width": 300
 	},
+	
 	{
 		"title": "炼金术士的计划",
 		"subtitle": "EP.06 彗星（Comet）6-1E 最后的愿望",
@@ -972,6 +1078,7 @@
 		"position_x": 16400,
 		"position_width": 300
 	},
+	
 	{
 		"title": "人形撤离因 AR-15 受阻",
 		"subtitle": "EP.06 彗星（Comet）6-2E 最后的愿望",
@@ -981,6 +1088,7 @@
 		"position_x": 16700,
 		"position_width": 300
 	},
+	
 	{
 		"title": "SOP-II 及时赶到救下 AR-15",
 		"subtitle": "EP.06 彗星（Comet）6-2E 最后的愿望",
@@ -990,6 +1098,7 @@
 		"position_x": 17000,
 		"position_width": 300
 	},
+	
 	{
 		"title": "AR-15 背后的敌人",
 		"subtitle": "EP.06 彗星（Comet）6-2E 最后的愿望",
@@ -999,6 +1108,7 @@
 		"position_x": 17000,
 		"position_width": 300
 	},
+	
 	{
 		"title": "「这是你欠我的，AR-15」",
 		"subtitle": "EP.06 彗星（Comet）6-3E 最后的愿望",
@@ -1008,6 +1118,7 @@
 		"position_x": 17300,
 		"position_width": 300
 	},
+	
 	{
 		"title": "M16A1 找到 AR-15",
 		"subtitle": "EP.06 彗星（Comet）6-3E 最后的愿望",
@@ -1017,6 +1128,7 @@
 		"position_x": 17300,
 		"position_width": 300
 	},
+	
 	{
 		"title": "「我叫你闭嘴！听到没有，AR-15！！」",
 		"subtitle": "EP.06 彗星（Comet）6-3E 最后的愿望",
@@ -1026,6 +1138,7 @@
 		"position_x": 17600,
 		"position_width": 300
 	},
+	
 	{
 		"title": "「就说我去达成 ... 我最后的愿望了 ... 」",
 		"subtitle": "EP.06 彗星（Comet）6-3E 最后的愿望",
@@ -1035,6 +1148,7 @@
 		"position_x": 17600,
 		"position_width": 300
 	},
+	
 	{
 		"title": "你就是 ... 铁血的「主脑」，对吧？",
 		"subtitle": "EP.06 彗星（Comet）6-4E 最后的愿望",
@@ -1044,6 +1158,7 @@
 		"position_x": 17900,
 		"position_width": 300
 	},
+	
 	{
 		"title": "「主脑」伊莱莎",
 		"subtitle": "EP.06 彗星（Comet）6-4E 最后的愿望",
@@ -1053,6 +1168,7 @@
 		"position_x": 17900,
 		"position_width": 300
 	},
+	
 	{
 		"title": "「下一次，请分清楚战场和谈判桌的区别。」",
 		"subtitle": "EP.06 彗星（Comet）6-4E 最后的愿望",
@@ -1062,6 +1178,7 @@
 		"position_x": 18200,
 		"position_width": 300
 	},
+	
 	{
 		"title": "AR-15 的留言",
 		"subtitle": "EP.06 彗星（Comet）6-4E 最后的愿望",
@@ -1071,6 +1188,7 @@
 		"position_x": 18500,
 		"position_width": 300
 	},
+	
 	{
 		"title": "AR-15 的留言",
 		"subtitle": "EP.06 彗星（Comet）6-4E 最后的愿望",
@@ -1080,6 +1198,7 @@
 		"position_x": 18500,
 		"position_width": 300
 	},
+	
 	{
 		"title": "「果然，我还是应该讨厌你才对吧 ... 」",
 		"subtitle": "EP.06 彗星（Comet）6-4E 最后的愿望",
@@ -1089,6 +1208,7 @@
 		"position_x": 18800,
 		"position_width": 300
 	},
+	
 	{
 		"title": "一场喧嚣的葬礼 ... 和一个沉默的告别",
 		"subtitle": "EP.06 彗星（Comet）6-6 迟来的道别",
@@ -1098,6 +1218,7 @@
 		"position_x": 19100,
 		"position_width": 300
 	},
+	
 	{
 		"title": "伊莱莎的疑惑",
 		"subtitle": "EP.06 彗星（Comet）6-4E 最后的愿望",
@@ -1107,6 +1228,7 @@
 		"position_x": 19400,
 		"position_width": 300
 	},
+	
 	{
 		"title": "「魔方行动」内容简述",
 		"subtitle": "SP.01 魔方行动（Operation Cube）",
@@ -1116,6 +1238,7 @@
 		"position_x": 14300,
 		"position_width": 300
 	},
+	
 	{
 		"title": "UMP9 营救已经被困的 HK416",
 		"subtitle": "SP.01 魔方行动（Operation Cube）1-1 七阶迷题",
@@ -1125,6 +1248,7 @@
 		"position_x": 15200,
 		"position_width": 300
 	},
+	
 	{
 		"title": "404 小队重新会合展开行动",
 		"subtitle": "SP.01 魔方行动（Operation Cube）1-1 七阶迷题",
@@ -1134,6 +1258,7 @@
 		"position_x": 15500,
 		"position_width": 300
 	},
+	
 	{
 		"title": "衔尾蛇指挥猎手保护哨站消灭格里芬人形",
 		"subtitle": "SP.01 魔方行动（Operation Cube）1-1 七阶迷题",
@@ -1143,6 +1268,7 @@
 		"position_x": 15800,
 		"position_width": 300
 	},
+	
 	{
 		"title": "UMP45 决定偷袭哨站逼问干扰器位置",
 		"subtitle": "SP.01 魔方行动（Operation Cube）1-2 角先破解",
@@ -1152,6 +1278,7 @@
 		"position_x": 16100,
 		"position_width": 300
 	},
+	
 	{
 		"title": "猎手被衔尾蛇抛弃并格式化",
 		"subtitle": "SP.01 魔方行动（Operation Cube）1-2 角先破解",
@@ -1161,6 +1288,7 @@
 		"position_x": 16400,
 		"position_width": 300
 	},
+	
 	{
 		"title": "404 获得干扰器坐标并与刽子手战斗",
 		"subtitle": "SP.01 魔方行动（Operation Cube）1-3 层先调换",
@@ -1170,6 +1298,7 @@
 		"position_x": 16700,
 		"position_width": 300
 	},
+	
 	{
 		"title": "刽子手的无奈选择与 UMP45 的计划",
 		"subtitle": "SP.01 魔方行动（Operation Cube）1-3 层先调换",
@@ -1179,6 +1308,7 @@
 		"position_x": 17000,
 		"position_width": 300
 	},
+	
 	{
 		"title": "衔尾蛇欺骗代理人继续围剿 404 小队",
 		"subtitle": "SP.01 魔方行动（Operation Cube）1-3 层先调换",
@@ -1188,6 +1318,7 @@
 		"position_x": 17300,
 		"position_width": 300
 	},
+	
 	{
 		"title": "404 小队与 OTs-14 偷袭衔尾蛇指挥部",
 		"subtitle": "SP.01 魔方行动（Operation Cube）1-4 次面崩溃",
@@ -1197,6 +1328,7 @@
 		"position_x": 17600,
 		"position_width": 300
 	},
+	
 	{
 		"title": "衔尾蛇的失败",
 		"subtitle": "SP.01 魔方行动（Operation Cube）1-4 次面崩溃",
@@ -1206,6 +1338,7 @@
 		"position_x": 17900,
 		"position_width": 300
 	},
+	
 	{
 		"title": "「♪ 就是说 ... 可以达成某种交易，对吗？」",
 		"subtitle": "SP.01 魔方行动（Operation Cube）1-4 次面崩溃",
@@ -1215,6 +1348,7 @@
 		"position_x": 18200,
 		"position_width": 300
 	},
+	
 	{
 		"title": "「为什么你会知道这么多 ... 」",
 		"subtitle": "SP.01 魔方行动（Operation Cube）1-4 次面崩溃",
@@ -1224,6 +1358,7 @@
 		"position_x": 18500,
 		"position_width": 300
 	},
+	
 	{
 		"title": "「我们，是所有人的污点。」",
 		"subtitle": "SP.01 魔方行动（Operation Cube）1-4 次面崩溃",
@@ -1233,6 +1368,7 @@
 		"position_x": 18800,
 		"position_width": 300
 	},
+	
 	{
 		"title": "「魔方行动」结束",
 		"subtitle": "SP.01 魔方行动（Operation Cube）1-4 次面崩溃",
@@ -1242,6 +1378,7 @@
 		"position_x": 19400,
 		"position_width": 300
 	},
+	
 	{
 		"title": "代理人向伊莱莎报告情况",
 		"subtitle": "EP.06 彗星（Comet）6-4E 最后的愿望",
@@ -1251,6 +1388,7 @@
 		"position_x": 19700,
 		"position_width": 300
 	},
+	
 	{
 		"title": "第六章节与「魔方行动」分析 I",
 		"subtitle": "EP.06 彗星（Comet）& SP.01 魔方行动（Operation Cube）",
@@ -1260,6 +1398,7 @@
 		"position_x": 20000,
 		"position_width": 300
 	},
+	
 	{
 		"title": "第六章节与「魔方行动」分析 II",
 		"subtitle": "EP.06 彗星（Comet）& SP.01 魔方行动（Operation Cube）",
@@ -1269,6 +1408,7 @@
 		"position_x": 20000,
 		"position_width": 300
 	},
+	
 	{
 		"title": "第六章节与「魔方行动」分析 III",
 		"subtitle": "EP.06 彗星（Comet）& SP.01 魔方行动（Operation Cube）",
@@ -1278,6 +1418,7 @@
 		"position_x": 20000,
 		"position_width": 300
 	},
+	
 	{
 		"title": "未完待续 ...",
 		"subtitle": "更多故事，敬请期待后续更新",

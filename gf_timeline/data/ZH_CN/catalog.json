@@ -1,0 +1,66 @@
+{
+	"title": "目录",
+	"close": "返回",
+	"index": [
+		{
+			"title": "写在前面",
+			"index": 0
+		},
+		{
+			"title": "背景故事",
+			"index": 3
+		},
+		{
+			"title": "「蝴蝶行动」",
+			"index": 22
+		},
+		{
+			"title": "EP.00 种子（The Seed）",
+			"index": 29
+		},
+		{
+			"title": "「少女前线 Girls' Frontline」",
+			"index": 31
+		},
+		{
+			"title": "EP.01 苏醒（Wake Up）",
+			"index": 32
+		},
+		{
+			"title": "EP.02 回声（The Echo）",
+			"index": 39
+		},
+		{
+			"title": "EP.03 沉默（Silence）",
+			"index": 48
+		},
+		{
+			"title": "EP.04 风声（The Message）",
+			"index": 58
+		},
+		{
+			"title": "[REPLAY] EP.00 种子（The Seed）",
+			"index": 75
+		},
+		{
+			"title": "EP.05 火种（The Kindling）",
+			"index": 77
+		},
+		{
+			"title": "EP.06 彗星（Comet）",
+			"index": 93
+		},
+		{
+			"title": "SP.01 魔方行动（Operation Cube）",
+			"index": 123
+		},
+		{
+			"title": "[ANALYSIS] EP.06 彗星 & SP.01 魔方行动",
+			"index": 139
+		},
+		{
+			"title": "未完待续 To Be Continued ...",
+			"index": 142
+		}
+	]
+}

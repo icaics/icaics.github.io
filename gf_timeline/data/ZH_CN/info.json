@@ -5,7 +5,7 @@
 		"github": "<a href='https://github.com/icaics/icaics.github.io/' target='_blank'>Github</a>",
 		"producer": "企划：<a href='https://weibo.com/icaics/' target='_blank'>@菜酱</a>",
 		"developer": "开发：<a href='https://weibo.com/icaics/' target='_blank'>@菜酱</a>",
-		"dev_helper": "开发协力：N/A",
+		"dev_helper": "开发协力：<a href='https://github.com/icaics/icaics.github.io/graphs/contributors' target='_blank'>Github</a>",
 		"zh_cn": "简中版本：<a href='https://weibo.com/icaics/' target='_blank'>@菜酱</a>",
 		"zh_tw": "繁中版本：N/A",
 		"en": "英语版本：N/A",
@@ -18,5 +18,10 @@
 		"info": "个人总结制作，多有疏漏还请指正",
 		"about": "关于",
 		"enter": "进入剧情"
+	},
+	"info": {
+		"title": "说明",
+		"detail": "感谢以下指挥官为功能及内容文案作出的贡献<br><br><a href='https://weibo.com/grifonkryuger' target='_blank'>@格里芬军事通讯局</a><br><a href='https://weibo.com/99zhen' target='_blank'>@不明真相的笨蛋</a><br><a href='https://weibo.com/6204494733' target='_blank'>@夜长行-</a><br><a href='https://weibo.com/gelifenhashiqi' target='_blank'>@一个爱学习的指挥官</a><br><a href='https://weibo.com/3938278656' target='_blank'>@云海之上的秋天</a><br><a href='https://weibo.com/niaogugu' target='_blank'>@鸟咕Scatknife</a><br><br>期待你的帮助 ...",
+		"close": "返回"
 	}
 }
