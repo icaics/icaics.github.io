@@ -465,7 +465,7 @@ function clickDetailBtn(operation) {
     // console.log('index = ' + index);
 
     bindDetailData();
-    moveTimelineToIndexWithDuration(500);
+    moveTimelineToIndexWithDuration(300);
 
 }
 
@@ -476,7 +476,7 @@ function clickTimelineItem(e) {
     localStorage.setItem('index', index);
 
     bindDetailData();
-    moveTimelineToIndexWithDuration(500);
+    moveTimelineToIndexWithDuration(300);
 
 }
 
@@ -562,37 +562,46 @@ function setTimelineDrag() {
 
 }
 
-var btnflag = false;
-var prevbtn = 0;
+var btnFlag = false;
+var prevBtn = 0;
 
 function setHotkey() {
 
     $(document).keydown(function (event) {
-	if(!btnflag){
-            btnflag = true;
-            prevbtn = event.which;
-            setTimeout(function(){btnflag = false;}, 450) // key responding time to 0.45s
 
-	    switch (event.keyCode) {
-            	case 37:
-            		clickDetailBtn(-1);
-                	break;
-            	case 38:
-                	// clickDetailBtn(-index);
-                	clickDetailBtn(-20);
-                	break;
-            	case 39:
-                	clickDetailBtn(1);
-                	break;
-            	case 40:
-                	// clickDetailBtn(data.length - 1);
-                	clickDetailBtn(20);
-                	break;
-	    }
+    	if(!btnFlag) {
+
+            btnFlag = true;
+            prevBtn = event.which;
+
+            setTimeout(function() {
+                btnFlag = false;
+            }, 250);
+
+    	    switch (event.keyCode) {
+                	case 37:
+                		clickDetailBtn(-1);
+                    	break;
+                	case 38:
+                    	// clickDetailBtn(-index);
+                    	clickDetailBtn(-20);
+                    	break;
+                	case 39:
+                    	clickDetailBtn(1);
+                    	break;
+                	case 40:
+                    	// clickDetailBtn(data.length - 1);
+                    	clickDetailBtn(20);
+                    	break;
+    	    }
+
         }
-	else if (prevbtn != event.which){
-		btnflag = false;
-	}
+
+    	else if (prevBtn != event.which) {
+
+    		btnFlag = false;
+
+    	}
 	    
         return false;
     });
