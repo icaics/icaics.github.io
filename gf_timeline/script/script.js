@@ -160,11 +160,15 @@ function closeAbout() {
 function clickInfoBtn() {
     
     $('#info_frame').css('display', 'flex');
-    $('#info_frame').fadeTo(500, 1);
+    $('#info_frame').fadeTo(500, 1, function() {
+        $('#timeline_track').css('display', 'none');
+    });
 
 }
 
 function closeInfo() {
+
+    $('#timeline_track').css('display', 'flex');
     
     $('#info_frame').fadeTo(500, 0, function() {
         $('#info_frame').css('display', 'none');
@@ -175,11 +179,15 @@ function closeInfo() {
 function clickCatalogBtn() {
     
     $('#catalog_frame').css('display', 'flex');
-    $('#catalog_frame').fadeTo(500, 1);
+    $('#catalog_frame').fadeTo(500, 1, function() {
+        $('#timeline_track').css('display', 'none');
+    });
 
 }
 
 function closeCatalog() {
+
+    $('#timeline_track').css('display', 'flex');
     
     $('#catalog_frame').fadeTo(500, 0, function() {
         $('#catalog_frame').css('display', 'none');
