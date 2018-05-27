@@ -339,7 +339,7 @@ body {
 	cursor: pointer;
 }
 
-.catalog_detail_item_div:hover, .catalog_detail_item_div:active {
+.catalog_detail_item_div:hover {
 	color: #FBA400;
 }
 
@@ -389,16 +389,14 @@ body {
 	position: absolute;
 }
 
-#detail_btnleft:hover, #detail_btnright:hover, 
+/*#detail_btnleft:hover, #detail_btnright:hover, 
 #detail_btnskip_left:hover, #detail_btnskip_right:hover, 
 #detail_btn_index:hover, #detail_btn_info:hover {
 	background-color: #A47400;
-}
+}*/
 
-#detail_btnleft:active, #detail_btnright:active, 
-#detail_btnskip_left:active, #detail_btnskip_right:active, 
-#detail_btn_index:active, #detail_btn_info:active {
-	background-color: #A47400;
+.btn_hover {
+	background-color: #A47400 !important;
 }
 
 #detail_frame {
@@ -493,7 +491,7 @@ body {
 	cursor: pointer;
 }
 
-.timeline_track_item_div:hover, .timeline_track_item_div:active {
+.timeline_track_item_div:hover {
 	color: #FBA400;
 }
 

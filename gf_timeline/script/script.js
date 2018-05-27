@@ -10,6 +10,7 @@ var lang, info, catalog, header, data;
 initLang();
 setupViews();
 setTimelineDrag();
+setHover();
 
 // DEBUG
 // enterStory();
@@ -703,6 +704,64 @@ function setHotkey() {
     	}
 	    
         return false;
+    });
+
+}
+
+function setHover() {
+    
+    var isTouch = window.hasOwnProperty('ontouchstart');
+    var dragEvent = isTouch ? {
+        down: 'touchstart',
+        move: 'touchmove',
+        up: 'touchend',
+        over: 'touchstart',
+        out: 'touchend'
+    } : {
+        down: 'mousedown',
+        move: 'mousemove',
+        up: 'mouseup',
+        over: 'mouseover',
+        out: 'mouseout'
+    }
+
+    $('#detail_btnskip_left').on(dragEvent.over, function(ev) {
+        $(this).addClass('btn_hover');
+    });
+    $('#detail_btnskip_left').on(dragEvent.out, function(ev) {
+        $(this).removeClass('btn_hover');
+    });
+    $('#detail_btnskip_right').on(dragEvent.over, function(ev) {
+        $(this).addClass('btn_hover');
+    });
+    $('#detail_btnskip_right').on(dragEvent.out, function(ev) {
+        $(this).removeClass('btn_hover');
+    });
+
+    $('#detail_btn_index').on(dragEvent.over, function(ev) {
+        $(this).addClass('btn_hover');
+    });
+    $('#detail_btn_index').on(dragEvent.out, function(ev) {
+        $(this).removeClass('btn_hover');
+    });
+    $('#detail_btn_info').on(dragEvent.over, function(ev) {
+        $(this).addClass('btn_hover');
+    });
+    $('#detail_btn_info').on(dragEvent.out, function(ev) {
+        $(this).removeClass('btn_hover');
+    });
+
+    $('#detail_btnleft').on(dragEvent.over, function(ev) {
+        $(this).addClass('btn_hover');
+    });
+    $('#detail_btnleft').on(dragEvent.out, function(ev) {
+        $(this).removeClass('btn_hover');
+    });
+    $('#detail_btnright').on(dragEvent.over, function(ev) {
+        $(this).addClass('btn_hover');
+    });
+    $('#detail_btnright').on(dragEvent.out, function(ev) {
+        $(this).removeClass('btn_hover');
     });
 
 }
