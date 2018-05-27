@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 body {
+
 	font-family: Helvetica, Arial, 'Hiragino Sans GB', 'Microsoft YaHei', 'PingFang SC', simsun;
 	background-color: #000;
 	margin: 0px;
@@ -11,7 +12,10 @@ body {
     -ms-user-select:none;
     user-select:none;
 
+    -webkit-tap-highlight-color:transparent;
+
     cursor: default;
+
 }
 
 #enter_about, #enter_enter, #about_close, #info_close, #catalog_close,
@@ -224,6 +228,7 @@ body {
 	color: #FFF;
 	margin: 20px;
 	overflow-y: auto;
+	-webkit-overflow-scrolling: touch;
 	width: 90%;
 	max-height: 790px;
 }
@@ -296,6 +301,7 @@ body {
 	color: #FFF;
 	margin: 20px;
 	overflow-y: auto;
+	-webkit-overflow-scrolling: touch;
 	width: 90%;
 	max-height: 790px;
 }
@@ -327,14 +333,13 @@ body {
 #catalog_detail {
 	font-size: 14px;
 	color: #999;
-	overflow: auto;
 }
 
 .catalog_detail_item_div {
 	cursor: pointer;
 }
 
-.catalog_detail_item_div:hover {
+.catalog_detail_item_div:hover, .catalog_detail_item_div:active {
 	color: #FBA400;
 }
 
@@ -387,6 +392,12 @@ body {
 #detail_btnleft:hover, #detail_btnright:hover, 
 #detail_btnskip_left:hover, #detail_btnskip_right:hover, 
 #detail_btn_index:hover, #detail_btn_info:hover {
+	background-color: #A47400;
+}
+
+#detail_btnleft:active, #detail_btnright:active, 
+#detail_btnskip_left:active, #detail_btnskip_right:active, 
+#detail_btn_index:active, #detail_btn_info:active {
 	background-color: #A47400;
 }
 
@@ -482,7 +493,7 @@ body {
 	cursor: pointer;
 }
 
-.timeline_track_item_div:hover {
+.timeline_track_item_div:hover, .timeline_track_item_div:active {
 	color: #FBA400;
 }
 
