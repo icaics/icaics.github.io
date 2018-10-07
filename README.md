@@ -30,7 +30,7 @@
 	
 	- [catalog.json](https://github.com/icaics/icaics.github.io/blob/master/gf_timeline/data/ZH_CN/catalog.json) 为目录对应数据
 	
-	```json
+	```
 	{
 		"title": "目录",
 		"close": "返回",
@@ -45,7 +45,7 @@
 	
 	- [header.json](https://github.com/icaics/icaics.github.io/blob/master/gf_timeline/data/ZH_CN/header.json) 为时间轴顶部 Tab 对应数据
 	
-	```json
+	```
 	[
 		{
 			"title": "写在前面",
@@ -56,7 +56,7 @@
 
 	- [data.json](https://github.com/icaics/icaics.github.io/blob/master/gf_timeline/data/ZH_CN/data.json) 为时间轴主数据
 	
-	```json
+	```
 	[
 		{
 			"title": "说明",
