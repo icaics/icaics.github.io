@@ -99,6 +99,17 @@ function switchLang(selectedLang) {
 
 }
 
+function playenterbutton(){
+    $("#enter_play").hover(
+        function(){
+            $(this).attr("src","image/enter_play.gif");
+        },
+        function(){
+            $(this).attr("src","image/enter_static.png");
+        }
+    );
+}
+
 function enterStory() {
 
 	$('#enter_frame').slideUp(700, function() {
@@ -131,7 +142,8 @@ function bindEnterAboutData() {
     $('#enter_caution').html(info.enter.caution);
     $('#enter_info').html(info.enter.info);
     $('#enter_about').html(info.enter.about);
-    $('#enter_enter').html(info.enter.enter);
+    // $('#enter_enter').html(info.enter.enter);
+    playenterbutton();
 
     $('#lang').children().css('color', '#FFF');
     $('#lang_' + lang).css('color', '#FBA400');
